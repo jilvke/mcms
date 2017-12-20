@@ -144,7 +144,7 @@
     </#noparse>
     
     <!--左边菜单开始-->
-	<div class="ms-menu-div">
+	<div class="ms-menu-div">2
         <div class="slideMenu">
             <span class="icon iconfont icon-open">&#xe823;</span>
             <span class="icon iconfont icon-close" style="display: none;">&#xe80d;</span>
@@ -159,10 +159,7 @@
     <!--右边开始-->
     <div class="ms-content">
         <div class="wellcome">
-            <h2>欢迎进入MS系统</h2>
-            <p>欢迎加群： 221335098 或到
-                <a href="http://ms.mingsoft.net/mbbs/main.do" target="_blank" style="text-decoration: none;">官方论坛进行技术交流</a>
-            </p>
+            <h2>欢迎进入EC85网站管理系统</h2>
         </div>
         <div class="easyui-tabs">
         
