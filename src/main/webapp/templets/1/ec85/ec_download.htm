@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0;"/>
+    <title>ec 下载</title>
+    <link rel="stylesheet" type="text/css" href="{ms:globalskin.url/}css/ec_download.css">
+    <link rel="stylesheet" type="text/css" href="{ms:globalskin.url/}css/reset.css">
+    <script src="{ms:globalskin.url/}responsive/responsive-nav.js"></script>
+    <script type="text/javascript" src="{ms:globalskin.url/}js/rem.js"></script>
+</head>
+<body>
+<!-- 头部  开始 -->
+{ms:include filename=header.htm/}
+<!-- 头部  结束 -->
+<div class="zxc">
+    <ul>
+        <li>
+            <div>
+                <h3>PC 客户端</h3>
+                <p class="zxc_yw">
+                    PC DOWNLOAD
+                </p>
+            </div>
+            <div class="xzxx">
+                <h4><a>立即下载</a></h4>
+                <p>版本信息：9.8.5.3</p>
+                <p>软件语言：简体中文</p>
+                <p>软件大小：63.56MB</p>
+                <p>运行环境：Windows2000/xp/2003/Vista/Win7/Win8/Win8.1/Win10</p>
+                <p>发布日期：2017年6月01日</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3>IOS 客户端</h3>
+                <p class="zxc_yw">
+                    IOS DOWNLOAD
+                </p>
+            </div>
+            <div class="xzxx">
+                <h4><a>App Store下载</a></h4>
+                <p>版本信息：EC 5.1.6</p>
+                <p>软件语言：简体中文</p>
+                <p>运行环境：与iPhone、iPod touch、iPad 兼容; 需要iOS 7.0或更高版</p>
+                <p>发布日期：2016年9月28日</p>
+            </div>
+            <div class="zxc_erweima">
+                <div></div>
+                <P>iphone手机扫描下载</P>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3>Android 客户端</h3>
+                <p class="zxc_yw">
+                    ANDROID DOWNLOAD
+                </p>
+            </div>
+            <div class="xzxx">
+                <h4><a>App Store下载</a></h4>
+                <p>版本信息：EC 5.1.6</p>
+                <p>软件语言：简体中文</p>
+                <p>运行环境：与iPhone、iPod touch、iPad 兼容; 需要iOS 7.0或更高版</p>
+                <p>发布日期：2016年9月28日</p>
+            </div>
+            <div class="zxc_erweima">
+                <div></div>
+                <P>iphone手机扫描下载</P>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="hddb fr"><a href="{ms:globalskin.url/}ec_download.html"><img src="{ms:globalskin.url/}images/hddb.png"></a></div>
+<!-- 底部 开始 -->
+{ms:include filename=footer.htm/}
+
+<!-- 底部 结束 -->
+<script type="text/javascript" charset="utf-8">
+    ;(function (W, D) {
+        W.ec_corpid = '4717644';
+        W.ec_cskey = 'kcC4I4morsY2bJiWrQ';
+        W.ec_scheme = '1';
+        var s = D.createElement('script');
+        s.src = '//1.staticec.com/kf/sdk/js/ec_cs.js';
+        D.getElementsByTagName('head')[0].appendChild(s);
+    })(window, document);
+</script>
+</body>
+</html>
+<script src="{ms:globalskin.url/}js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.tabtitle li').hover(function () {
+            var index = $(this).index();
+            $(this).attr('class', "tabhover").siblings('li').attr('class', 'taba');
+            $('.tabcontent').eq(index).show().siblings('.tabcontent').hide();
+        });
+    })
+</script>

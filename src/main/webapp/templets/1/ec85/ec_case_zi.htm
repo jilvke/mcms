@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0;"/>
+    <title>{ms:field.title/}</title>
+    <link rel="stylesheet" type="text/css" href="{ms:globalskin.url/}css/ec_case_zi.css">
+    <link rel="stylesheet" type="text/css" href="{ms:globalskin.url/}css/reset.css">
+    <script src="{ms:globalskin.url/}responsive/responsive-nav.js"></script>
+    <script type="text/javascript" src="{ms:globalskin.url/}js/rem.js"></script>
+</head>
+<body>
+<!-- 头部  开始 -->
+{ms:include filename=header.htm/}
+<div class="banner">
+    <img src="{ms:globalskin.url/}images/banner14.jpg">
+    <img src="{ms:globalskin.url/}images/banner14_s.jpg">
+</div>
+<!-- 头部  结束 -->
+<!-- 新闻 开始 -->
+<div class="journalism">
+    <h3 class="journalism_gsmz">{ms:field.title/}</h3>
+    <p>
+        {ms:field.content/}
+    </p>
+
+    <p class="shij">{ms:field.date fmt=yyyy-MM-dd /}</p>
+</div>
+<div class="xwen clearfix">
+    <H4>同行案例</H4>
+    <a href="{ms:field.prelink/}"><P>{ms:field.pretitle/}</P></a>
+    <a href="{ms:field.nextlink/}"><P>{ms:field.nexttitle/}</P></a>
+    <div class="FR"><a>查看更多</a></div>
+</div>
+<!-- 新闻 结束 -->
+
+<div class="hddb fr"><a href="{ms:globalskin.url/}ec_case_zi.html"><img src="{ms:globalskin.url/}images/hddb.png"></a></div>
+<!-- 底部 开始 -->
+{ms:include filename=footer.htm/}
+<!-- 底部 结束 -->
+<script type="text/javascript" charset="utf-8">
+    ;(function (W, D) {
+        W.ec_corpid = '4717644';
+        W.ec_cskey = 'kcC4I4morsY2bJiWrQ';
+        W.ec_scheme = '1';
+        var s = D.createElement('script');
+        s.src = '//1.staticec.com/kf/sdk/js/ec_cs.js';
+        D.getElementsByTagName('head')[0].appendChild(s);
+    })(window, document);
+</script>
+<script src="{ms:globalskin.url/}js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.tabtitle li').click(function () {
+            var index = $(this).index();
+            $(this).attr('class', "tabhover").siblings('li').attr('class', 'taba');
+            $('.tabcontent').eq(index).show().siblings('.tabcontent').hide();
+        });
+    })
+</script>
+</body>
+</html>

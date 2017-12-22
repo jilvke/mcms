@@ -1,0 +1,238 @@
+
+.hender_dh>li>ol{
+    position: absolute;
+    top: 100px;
+    background-color:  #FFF;
+    width: 10%;
+    display: none;
+    transform:translate(-10px,0);
+    transition:all 0.5s ease;
+} 
+.hender_dh>li>ol>li>a{
+    font-size: 18px;
+    color: #333;
+     display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.hender_dh>li>ol>li{
+    height: 50px;
+      line-height: 50px;
+}
+.hender_dh>li>ol>li:hover{
+    background-color: #dc2223;
+}
+.hender_dh>li>ol>li:hover>a{
+    font-size: 18px;
+    color: #FFF;
+}
+.dh_hover:hover ol{
+    display: block;
+}
+.daodianh{
+   line-height: 100px;
+   color: #000;
+   font-size: 20px;
+}
+.banner{
+    width: 100%;
+    height: auto; 
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.banner img:nth-child(2){
+    display: none;
+}
+.banner img:nth-child(3){
+    display: none;
+}
+.banner img:nth-child(4){
+    display: none;
+}
+.banner img:nth-child(5){
+    display: none;
+}
+.banner img:nth-child(6){
+    display: none;
+}
+/*头部 结束*/
+/*新闻 开始*/
+/*标题 开始*/
+.ljsh{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.ljsh div:first-child{
+    width: 820px;
+    margin: 0 auto;
+    
+}
+.ljsh .tabtitle a{
+    display: inline-block;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    
+    line-height: 40px;
+    margin-left: 50px;
+    background-color: #ae9973;
+}
+.ljsh .tabhover{
+   line-height: 30px;
+    font-size: 18px;
+    background-color: #cc0000;
+    color: #FFF;
+     border: 1px solid #cc0000;
+     border-radius: 10px;
+}
+.taba{
+    color: #ae9973;
+}
+.tabcontent ul li img{
+    width: 100%;
+    height: auto;
+}
+.tabtitle li{
+    display: inline-block;
+    background-color: #fff;
+    font-size: 18px;
+    padding:4px 20px;
+    color: #333;
+    border: 1px solid #1aa6e4;
+    border-radius: 0px;
+    transition: all 0.5s ease;
+}
+.tabtitle li:hover{
+    line-height: 30px;
+    font-size: 18px;
+    background-color: #cc0000;
+    color: #FFF;
+    border: 1px solid #cc0000;
+     border-radius: 10px;
+}
+.ljsh .tabtitle a:nth-child(1){
+    background-color: #fff;
+    color: #333;
+}
+.ljsh div a:hover{
+    background-color: #fff;
+    color: #333;
+}
+/*标题 结束*/
+/*新闻 开始*/
+.tabcontent{
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+}
+.tabcontent ul{
+    margin-top: 20px;
+}
+.tabcontent li{
+    width: 270px;
+    height: 360px;
+    border: 1px solid #999;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.tabcontent li:nth-child(4n){
+    margin-right: 0px;
+}
+.tabcontent li h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.tabcontent li h5{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.tabcontent li p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    width: 220px;
+}
+.ec_l_j .tabtitle li{
+    cursor: pointer;
+}
+.tabcontent ul li a div{
+    margin-top: 14px;
+    width: 220px;
+    margin-left: 20px;
+    height: 132px;
+    overflow:hidden;
+}
+.fenyefu{
+    width: 434px;
+    margin: 30px auto;
+}
+.fenyefu a{
+    padding: 5px 10px;
+    border: 1px solid #666;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.fenyefu a:hover{
+    border: 1px solid #cc0000;
+    color: #cc0000;
+}
+.fenyefu span{
+    font-size: 16px;
+}
+/*新闻 结束*/
+/*新闻 结束*/
+/*底部 开始*/
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .banner{
+        height: 300px;
+    }
+    .tabcontent{
+        width: 80%;
+    }
+    .tabcontent li{
+        width: 24%;
+        margin-right: 1%;
+    }
+    .tabtitle li{
+        padding: 2px 10px;
+    }
+    .tabcontent ul li a div{
+        margin-left: 10px;
+    }
+    .ljsh div:first-child{
+        width: 54%;
+    }
+}
+@media screen and (min-width: 750px) and (max-width: 970px){
+    .tabcontent{
+        width:68%;
+    }
+    .tabcontent li:nth-child(2n){
+       margin-right: 0;
+    }
+}
+@media screen and (min-width: 971px) and (max-width: 1199px){
+    .tabcontent{
+        width:86%;
+    }
+    .tabcontent ul{
+        width: 100%;
+    }
+    .tabcontent li:nth-child(3n){
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 749px){
+ 
+  .banner img:nth-child(1){
+    display: none;
+  }
+  .banner img:nth-child(2){
+    display: block;
+  }
+}

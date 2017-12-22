@@ -1,0 +1,296 @@
+
+.hender_dh>li>ol{
+    position: absolute;
+    top: 100px;
+    background-color:  #FFF;
+    width: 10%;
+    display: none;
+    transform:translate(-10px,0);
+    transition:all 0.5s ease;
+} 
+.hender_dh>li>ol>li>a{
+    font-size: 18px;
+    color: #333;
+ display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.hender_dh>li>ol>li{
+    height: 50px;
+      line-height: 50px;
+}
+.hender_dh>li>ol>li:hover{
+    background-color: #dc2223;
+}
+.hender_dh>li>ol>li:hover>a{
+    font-size: 18px;
+    color: #FFF;
+}
+.dh_hover:hover ol{
+    display: block;
+}
+.daodianh{
+   line-height: 100px;
+   color: #000;
+   font-size: 20px;
+}
+.banner{
+
+    width: 100%;
+    height: auto;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.banner img:nth-child(2){
+    display: none;
+}
+.banner img:nth-child(3){
+    display: none;
+}
+.banner img:nth-child(4){
+    display: none;
+}
+.banner img:nth-child(5){
+    display: none;
+}
+.banner img:nth-child(6){
+    display: none;
+}
+.fenyefu{
+    width: 434px;
+    margin:  0 auto;
+}
+.fenyefu a{
+    padding: 5px 10px;
+    border: 1px solid #666;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.fenyefu a:hover{
+    border: 1px solid #cc0000;
+    color: #cc0000;
+}
+.fenyefu span{
+    font-size: 16px;
+}
+/*头部 结束*/
+/*内容 开始*/
+.ljsh{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.ljsh .ec_l_j{
+    width: 1100px;
+    margin: 0 auto;
+}
+.ljsh .tabtitle .taba{
+    display: inline-block;
+    font-size: 14px; 
+    line-height: 30px;
+}
+.ec_l_j .tabtitle .tabhover{
+    padding:4px 20px;
+    line-height: 30px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    text-align: center;
+    background-color: #cc0000;
+    color: #fff;
+     border: 1px solid #cc0000;
+}
+.taba{
+    color: #fff;
+}
+.ljsh .ec_l_j ul li:hover{
+    padding:4px 20px;
+    line-height: 30px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    text-align: center;
+    background-color: #cc0000;
+    color: #fff;
+     border: 1px solid #cc0000;
+    border-radius: 10px;
+}
+.ec_l_j .tabtitle li{
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding:4px 20px;
+    cursor: pointer;
+    border: 1px solid #1aa6e4;
+    border-radius: 0px;
+    text-align: center;
+}
+.ljsh .tabtitle a:nth-child(1){
+    background-color: #fff;
+    color: #FFF;
+    font-size: 18px;
+}
+.tabcontent{
+    width: 1100px;
+    height: auto;
+    margin: 20px auto;
+}
+.tabcontent .clearfix{
+   display: inline-block;
+   width: 270px;
+   height: 192px;
+   overflow: hidden;
+   
+}
+
+.anlibeijim{
+    width: 268px;
+    height: 40px;
+    border-bottom: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    border-top: 0px solid #999;
+    text-align: center;
+    background-color: #ddd;
+}
+.anlibeijim a{
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: #333;
+}
+.anlibeijim h4{
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    line-height: 40px;
+}
+.anlibeijim>a:hover{
+    border:1px solid #cc0000;
+    background-color: #fff;
+    color: #333;
+}
+.tabcontent .clearfix .case_bj{
+   width: 270px;
+   height: 135px;
+   background: url(../images/anli.jpg);
+   background-size: 100% auto;
+}
+.tabcontent .case_jh{
+    width: 270px;
+    height: 192px;
+    background-color:#ddd;
+    transform:translate(0,260px);
+    transition:all 0.5s ease;
+   
+    color: #fff;
+}
+.tabcontent .case_jh span a{   
+    color: #333;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+}
+.tabcontent .case_jh a:hover{
+    background: #cc0000;
+    color: #FFF;
+    border: 0px solid #fff;
+}
+.tabcontent .case_jh h4{
+    padding-top: 40px;
+    font-size: 20px;
+    color: #333;
+}
+
+.tabcontent .case_jh p{
+    padding-top: 40px;
+    margin-left: 20px;
+    width: 220px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #333;
+    padding-bottom: 40px;
+}
+.clearfix:hover .case_jh{
+    transform:translate(0px,0px);
+}
+/*底部 开始*/
+@media screen and (min-width: 1401px) and (max-width: 1500px){
+.tabcontent{
+    width: 1140px;
+
+}
+.tabcontent a:nth-child(4n) .clearfix{
+    width: 250px;
+}
+.tabcontent a:nth-child(4n) .clearfix .case_bj{
+    width: 250px;
+}
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+  .tabcontent{
+    width: 880px;
+    
+}
+    .ec_l_j .tabtitle .tabhover{
+        padding: 2px 10px;
+    }
+    .ljsh .tabtitle .taba{
+        font-size: 16px;
+    }
+    .ec_l_j .tabtitle .tabhover{
+        font-size: 16px;
+    }
+    .ljsh .ec_l_j ul li{
+        padding: 2px 10px;
+    }
+    .ljsh .ec_l_j ul li:hover{
+       padding: 2px 10px;
+       font-size: 16px;
+    }
+    .ljsh .ec_l_j{
+        width: 76%;
+    }
+    
+}
+@media screen and (min-width: 750px) and (max-width: 970px){
+    .ljsh .ec_l_j{
+        width: 80%;
+    }
+    .ec_l_j .tabtitle li{
+        margin-top: 10px;
+    }
+    .tabcontent{
+        width: 564px;
+    }
+    .tabcontent a:nth-child(3n) .clearfix{
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 971px) and (max-width: 1199px){
+    .ljsh .ec_l_j{
+        width: 80%;
+    }
+    .ec_l_j .tabtitle li{
+        margin: 10px auto 0px;
+    }
+
+    .tabcontent{
+        width: 847px;
+    }
+    .tabcontent a:nth-child(3n) .clearfix{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 749px){
+ 
+  .banner img:nth-child(1){
+    display: none;
+  }
+  .banner img:nth-child(2){
+    display: block;
+  }
+}

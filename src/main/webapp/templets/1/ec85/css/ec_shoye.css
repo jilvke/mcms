@@ -1,0 +1,2282 @@
+ /*头部 开始*/
+ @font-face{
+    fontfamily:"方正兰亭大黑";
+    src:url('../ziti/方正兰亭大黑.ttf');
+ }
+*{
+    font-family: 微软雅黑;
+}
+.hender_dh>li>ol{
+    position: absolute;
+    top: 100px;
+    z-index: 10;
+    background-color:  #FFF;
+    width: 10%;
+    display: none;
+    transform:translate(-10px,0);
+    transition:all 0.5s ease;
+} 
+.hender_dh>li>ol>li>a{
+    font-size: 18px;
+    color: #333;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.hender_dh>li>ol>li{
+    height: 50px;
+    line-height: 50px;
+}
+.hender_dh>li>ol>li:hover{
+    background-color: #dc2223;
+}
+.hender_dh>li>ol>li:hover>a{
+    font-size: 18px;
+    color: #FFF;
+}
+.hender_dh .dh_hover:hover ol{
+    display: block;
+}
+.dianh{
+    font-size: 18px;
+    color: #000;
+    line-height:100px;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.banner .slides-box ul li{
+    background-size: 100% auto;
+    width: 100%;  
+     height: auto;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.slides-box {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slides {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    float: left;
+}
+.slides li {
+    width:  100%;
+    height: 100%;
+    background-size: 100% auto;
+}
+.slides li img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.prev, .next {
+    position: absolute;
+    z-index: 99;
+    top: 40%;
+    left: 0;
+    height: 70px;
+    width: 30px; 
+    cursor: pointer;
+    opacity: .5;
+}
+.prev:hover, .next:hover{
+    opacity: .7;
+}
+.prev{
+    left: 10%;
+     background:url(../images/jto2.png)no-repeat center bottom;
+     background-size: 100% auto;
+}
+.next {
+    left: auto;
+    right: 10%;
+     background:url(../images/jto.png)no-repeat center bottom;
+     background-size: 100% auto;
+    }
+.pagination{
+    position: absolute;
+    bottom: 250px;
+    z-index: 99;
+}
+#sangexiaoyund .pagination li{
+    padding: 5px 3px;
+    float: left;
+    margin-bottom:26%;
+}
+.pagination li a{
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 25px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+    transform:translate(0,10px);
+    text-decoration: none;
+    opacity: 0;
+}
+.pagination .active{
+    background: red;
+}
+
+/*头部结束*/
+.fwr{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+.fwr>div:nth-child(1)>h3{
+    color: #333;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+}
+.fwr h3 span{
+    color: #cc0000;
+}
+.fwr>div:nth-child(2)>h4{
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.fwr .xian{
+    width: 82px;
+    height: 2px;
+    display: flex;
+    background-color:#cc0000;
+    margin: 10px auto;
+}
+.fwr>div:nth-child(4){
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.fwr_img{
+    width: 64%;
+    height: 360px;
+    margin: 40px auto;
+}
+.fwr_img>div{
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    margin-left: 4%;
+}
+.fwr_img>div:nth-child(1){
+    margin-left: 0%;
+}
+.fwr_img>div:nth-child(1n)>div:nth-child(1){
+    width: 100%;
+    height: 100px;
+    background-color: #1aa6e4;
+}
+.fwr_img div:nth-child(1) h3{
+ 
+   margin-left: 10px;
+   line-height: 100px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.fwr_img div:nth-child(1) img{
+    margin-left: 10px;
+    margin-top: 20px;
+     display: inline-block;
+}
+.fwr>div:nth-child(1)>h3{
+    margin-top: 0;
+}
+.fwr_img_1>div:nth-child(2){
+    height: 150px;
+    border-left:1px solid #1aa6e4;
+    border-right:1px solid #1aa6e4;
+    padding-top: 5%;
+}
+
+.fwr_img_1>div:nth-child(2) h4{
+    font-size:18px;
+    color: #ff0000;
+    margin-left: 5%;
+}
+.fwr_img_1>div:nth-child(2) p{
+     font-size: 14px;
+    color: #333;
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 90%;
+    line-height: 24px;
+}
+.fwr_img_1_ckgd{
+    width: 99%;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #1aa6e4;
+}
+.fwr_img_1 h5{
+    font-size: 20px;
+    color: #cc0000;
+    line-height: 50px;
+}
+.fwr_img_1_ckgd:hover{
+    width: 99%;
+    background-color: #cc0000;
+    border: 2px solid #cc0000;
+}
+.fwr_img_1_ckgd:hover h5{
+    color: #fff;
+}
+.yitianyi{
+    width: 100%;
+    height: 530px;
+    background: url(../images/shoye_5.png)no-repeat center;
+   
+
+}
+.affordable{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.affordable div div span a{
+    font-size: 16px;
+    color: #CC0000;
+}
+.affordable div:nth-child(1) div:nth-child(1){
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    background: url(../images/shoye_4.png)no-repeat center;
+    background-size: 100% auto;
+
+}
+.affordable div:nth-child(1) div:nth-child(2) h3{
+    font-size: 14px;
+    color: #333;
+    letter-spacing:2px;
+}
+.affordable div:nth-child(1) div:nth-child(3){
+    width: 70px;
+    height: 2px;
+    margin-top: 12px;
+    background-color: #cc0000;
+}
+.affordable div:nth-child(1) div:nth-child(4){
+    font-size: 14px;
+    color: #333;
+    margin-top: 14px;
+    line-height: 26px;
+}
+.affordable div:nth-child(1) div:nth-child(5){
+    font-size: 18px;
+    color: #cc0000;
+    margin-top: 30px;
+}
+.affordable div:nth-child(1) div:nth-child(6){
+    width: 544px;
+    height: 200px;
+    margin-top: 14px;
+    background: url(../images/shoyeimg_13.png)no-repeat center;
+    background-size: 100% auto;
+}
+.affordable>div:nth-child(2){
+    width: 536px;
+    height: 472px;
+    background: url(../images/shoyeimg_07.gif)no-repeat center;
+}
+.business{
+    width: 1200px;
+    height: auto;
+    margin: 46px auto;
+}
+.business>div:nth-child(1){
+    width: 600px;
+    height: 540px;
+    background: url(../images/shoye_6.png)no-repeat center;
+    background-size: 100% auto;
+}
+.business>div:nth-child(2){
+    margin-left: 100px;
+}
+.business>div:nth-child(2) div:nth-child(1){
+    width: 260px;
+    height: 40px;
+    margin-top: 40px;
+    background: url(../images/shoye_7.png)no-repeat center;
+    background-size: 100% auto;
+}
+.business>div:nth-child(2) div:nth-child(2){
+    font-size: 16px;
+}
+.business>div:nth-child(2) div:nth-child(3){
+    width: 82px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: #cc0000;
+}
+.business>div:nth-child(2) div:nth-child(4){
+    font-size: 16px;
+    margin-top: 16px;
+    color: #333;
+    line-height: 30px;
+}
+.business>div:nth-child(2) div:nth-child(5){
+    font-size: 20px;
+    margin-top: 20px;
+    color: #cc0000;
+}
+.business>div:nth-child(2) div:nth-child(6){
+    font-size: 16px;
+    margin-top: 14px;
+    color: #333;
+    line-height: 34px;
+}
+.banner .swiper-wrapper div:nth-child(4){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(5){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(6){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(7){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(8){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(9){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(10){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(11){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(12){
+    display: none;
+}
+/*预测公司情况 结束*/
+.fgk{
+    position:relative;
+    width: 100%;
+    height: 80px;
+    background-color: #1aa6e4;
+    /*background:url(../images/slljsho.jpg);*/
+}
+.fgk div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:666px;
+    height:auto;
+    font-size:20px;
+    color:#fff;
+}
+.fgk div a{
+    margin-top:18px;
+    padding:10px 66px;
+    border:1px solid #fff;
+    color:#fff;
+    transition:all 0.5s ease;
+}
+.fgk div a:hover{
+    background-color:#fff;
+    color:#1aa6e4;
+    border-radius: 20px;
+}
+.fgk div span{
+    margin-left:20%;
+}
+.awo{   
+    width: 1200px;
+    height: auto;
+    margin: 20px auto;
+}
+.awo>div:nth-child(1) div:nth-child(1) h2{
+    font-size: 22px;
+    color: #333;
+}
+.awo>div:nth-child(1) div:nth-child(1) span{
+    color: #cc0000;
+}
+.awo>div:nth-child(1) div:nth-child(2){
+    font-size: 14px;
+    color: #333; 
+}
+.awo>div:nth-child(1) div:nth-child(3){
+    width: 70px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: #cc0000;
+}
+.awo>div:nth-child(1) div:nth-child(4){
+    font-size: 14px;
+    color: #333;
+    margin-top: 14px;
+}
+.awo>div:nth-child(2){
+    width: auto;
+    height: 434px;
+    margin-top: 34px;
+    background: url(../images/shoye_8.jpg)no-repeat center;
+}
+.awo>div:nth-child(2) ul li{
+    width: 138px;
+    height: 138px;
+    box-shadow: 1px 1px 4px 4px #deeef5 inset;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    background-color: #fff;
+    border: 2px solid #1aa6e4;
+}
+.awo .xyejjfanfandlj a:hover{
+    color: #cc0000;
+}
+.awo>div:nth-child(2) ul a:nth-child(1) li{
+    margin-left: 6px;
+}
+.awo>div:nth-child(2) ul a:nth-child(5n) li{
+   margin-right: 0;
+}
+.awo>div:nth-child(2) ul a:nth-child(1n) li{
+    position: relative;
+    border-radius: 69px;
+    line-height: 30px;
+    transition:all 0.5s ease;
+}
+.awo>div:nth-child(2) ul a:nth-child(6) li{
+  margin-bottom: 0;
+}
+.awo>div:nth-child(2) ul a:nth-child(7) li{
+ margin-bottom: 0;
+}
+.awo>div:nth-child(2) ul a:nth-child(8) li{
+ margin-bottom: 0;
+}
+.awo>div:nth-child(2) ul a:nth-child(9) li{
+ margin-bottom: 0;
+}
+.awo>div:nth-child(2) ul a:nth-child(10) li{
+ margin-bottom: 0;
+}
+.awo>div:nth-child(2) ul a:nth-child(1n) li>p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-size: 22px;
+    color: #1aa6e4;
+    text-align: center;
+}
+.awo>div:nth-child(2) ul a:nth-child(1n) li>div{
+     display: flex;
+     display: none;
+     height: auto;
+    width: 0px;
+    height: 170px;
+    z-index: 200;
+   /* transform:translate(0px,140px);*/
+    background-color: #1aa6e4;
+    overflow: hidden;  
+     transition:all 0.5s ease;  
+}
+.awo>div:nth-child(2) ul a:nth-child(1n) li>div p{
+   
+    line-height: 16px;
+}
+.awo>div:nth-child(2) ul a:nth-child(1n) li:hover{
+    border-radius: 0px;
+    background-color: #1aa6e4;
+     box-shadow: 0px 1px 2px 2px #FFF;    
+}
+.awo>div:nth-child(2) ul a:nth-child(1n) li:hover>p{
+    color: #fff;
+    font-size: 0;
+}
+.awo>div:nth-child(2) ul a:nth-child(10) li:hover>p{
+    font-size: 22px;
+}
+.awo>div:nth-child(2) ul a:nth-child(5) li:hover div{
+    transform:translate(-110px,0px);
+}
+.awo>div:nth-child(2) ul a:nth-child(1n) li:hover div{
+     width: 250px;
+    display: block;
+    background-color: #fff;
+     box-shadow: 1px 1px 2px 2px #1aa6e4;  
+}
+.awo>div:nth-child(2) ul li:nth-child(1n):hover div h4{
+    color: #cc0000;
+    font-size: 18px;
+    margin-left: 6%;
+}
+.awo>div:nth-child(2) ul li:nth-child(1n):hover div p{
+    width: 90%;
+     color: #333;
+     height:120px;
+     overflow: hidden;
+     line-height: 20px;
+     font-size: 14px;
+     margin: 2% auto;
+}
+.awo>div:nth-child(2) ul li:nth-child(1n):hover div p span{
+    color: #CC0000;
+}
+.case{
+    width:100%;
+    height:auto;
+}
+.case>div:nth-child(1) h2{
+    font-size:22px;
+    color:#333;
+    text-align:center;
+}
+.case .xian{
+    width:82px;
+    height:2px;
+    background-color:#cc0000;
+    margin:10px auto 10px;
+}
+.case>div:nth-child(1) p{
+    font-size:14px;
+    margin-top:5px;
+    color:#333;
+    text-align:center;
+    margin-bottom: 10px;
+}
+.case>div:nth-child(2){
+    width:1200px;
+    height:300px;
+    margin:0 auto;
+}
+.case>div:nth-child(2)>div:nth-child(1){
+    width:600px;
+    height:300px;
+   /* text-align:center;*/
+}
+.case>div:nth-child(2)>div:nth-child(2){
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+}
+.case>div:nth-child(2)>div:nth-child(2) img{
+    width: 100%;
+    height: auto;
+}
+.case>div:nth-child(2) h3{
+    margin-top:60px;
+    font-size:20px;
+    color:#333;
+    text-align:center;
+}
+.case>div:nth-child(3){
+    width:1200px;
+    height:300px;
+    margin:0px auto;
+}
+.case>div:nth-child(3)>div:nth-child(1){
+    width:600px;
+    height:300px;
+    text-align:center;
+}
+.case>div:nth-child(3)>div:nth-child(2){
+    width: 600px;
+    height: 300px;
+     overflow: hidden;
+}
+.case>div:nth-child(3)>div:nth-child(1) img{
+    width: 100%;
+    height: auto;
+}
+.case>div:nth-child(3) h3{
+    margin-top:60px;
+    font-size:20px;
+    color:#333;
+    text-align:center;
+}
+.case_wenan{
+    width: 95%;
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+.case .ckgd{
+    margin-top:20px;
+    width: 100%;
+}
+.case .ckgd a{
+    background-color: #cc0000;
+    color: #fff;
+    width: 110px;
+    height: 40px;
+    display:block;
+    line-height:  40px;
+    transition:all 0.5s ease;
+    text-align: center;
+    margin: 0 auto;
+}
+.case .ckgd:hover a{
+    background-color: #FFF;
+    border:1px solid #cc0000;
+     border-radius: 10px;
+     color: #cc0000;
+}
+/*案例 结束*/
+.Journalism{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.Journalism_qb{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.Journalism_qb>div:nth-child(1){
+    text-align: center;
+}
+.Journalism_qb>div:nth-child(1) h2{
+    font-size: 22px;
+    color: #333;
+
+}
+.Journalism_qb>div:nth-child(1) div{
+    width: 72px;
+    height: 2px;
+    background-color: #cc0000;
+    margin: 10px auto;
+}
+.Journalism_qb>div:nth-child(1) p{
+    font-size: 14px;
+    color: #333;
+}
+.Journalism_xiao{
+    width: 600px;
+    height: 92px;
+    margin-top: 10px;
+    border-bottom: 1px solid #999;
+}
+.Journalism_xiao div{
+   display: inline-block;
+   
+}
+.Journalism_xiao a>div:nth-child(2){
+    margin-left: 20px;
+}
+.Journalism_img_1{
+    width: auto;
+    height: auto; 
+    font-size: 0;
+}
+.Journalism_img_1 h4{
+    text-align: center;
+    font-size: 50px;
+    font-family: 方正兰亭大黑;
+}
+.Journalism_img_1 p{
+    font-size: 16px;
+    text-align: center;
+}
+.Journalism_xiao:hover h4{
+    color: #cc0000;
+   
+}
+.Journalism_xiao:hover p{
+    color: #cc0000;
+    
+}
+
+.Journalism_xiao div:nth-child(2) h4{
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+.Journalism_xiao div:nth-child(2) p{
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    width: 400px;
+}
+.Journalism_shix_shox{
+     width: 545px;
+    height: 327px;
+}
+.Journalism_img{
+    width: 545px;
+    height: 327px;
+    margin-top: 20px;
+    background: url(../images/shoye_53.jpg)no-repeat center;
+    background-size: 100% auto;
+}
+.Journalism_shix_shox_wz{
+    width: 100%;
+    height: 100px;
+    padding-top: 2px;
+   background-color: rgba(0,0,0,0.5);
+    margin-top: 120px;
+}
+.Journalism_img .Journalism_img_1{
+    width: 106px;
+    height: 96px;
+    padding-top: 8px;
+    background-color: #1aa6e4;
+    color: #fff;
+}
+.Journalism_img .Journalism_img_1:hover h4{
+    color: #fff;
+}
+.Journalism_img .Journalism_img_1:hover p{
+    color: #fff;
+}
+.Journalism_shix div:nth-child(1) div:nth-child(2) h4{
+    width: 95%;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #FFF;
+    margin-left:  2%;
+
+}
+.Journalism_shix div:nth-child(1) div:nth-child(2) p{
+    width: 80%;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 2%;
+   
+}
+.Journalism_shix div:nth-child(2) div{
+    margin-top: 20px;
+    font-size: 18px;
+   width: 186px;
+   height: 46px;
+   text-align: center;
+   line-height: 46px;
+    background-color: #ae9973;
+    transition:all 0.5s ease;
+
+}
+.Journalism_qb div:nth-child(4) a{
+    color: #333;
+} 
+.Journalism_shix div:nth-child(2) div:hover{
+    background-color: #FFF;
+    border-radius: 20px;
+    border: 1px solid #ae9973;
+}
+.Journalism_shix div:nth-child(2) div:hover a{
+    color: #ae9973;
+
+}
+.yqlj{
+    width: 62%;
+    height: auto;
+    margin: 20px auto;
+}
+.yqlj h3{
+    font-size: 20px;
+    color: #333;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.yqlj a{
+    font-size: 16px;
+    margin-left: 20px;
+}
+/*EC连接生活 结束*/
+/*底部 开始*/
+
+/*底部结束*/
+@media screen and (max-width: 749px){
+  
+.fwr_img>div{
+    width: 100%;
+}
+  .banner .swiper-container .swiper-wrapper div:nth-child(1){
+    display: none;
+  }
+  .banner .swiper-container .swiper-wrapper div:nth-child(2){
+    display: none;
+  }
+  .banner .swiper-container .swiper-wrapper div:nth-child(3){
+    display: none;
+  }
+  .banner .swiper-container .swiper-wrapper div:nth-child(4){
+    display: none;
+  }
+  .banner .swiper-container .swiper-wrapper div:nth-child(5){
+    display: none;
+  }
+  .banner .swiper-container .swiper-wrapper div:nth-child(6){
+    display: none;
+  }
+  .banner .swiper-container .swiper-wrapper div:nth-child(7){
+    display: none;
+  }
+  .banner .swiper-container .swiper-wrapper div:nth-child(8){
+    display: none;
+  }
+  .banner .swiper-container .swiper-wrapper div:nth-child(9){
+    display: none;
+  }
+  .banner .swiper-container .swiper-wrapper div:nth-child(10){
+    display: block;
+  }
+  .banner .swiper-container .swiper-wrapper div:nth-child(11){
+    display: block;
+  }
+  .banner .swiper-container .swiper-wrapper div:nth-child(12){
+    display: block;
+  }
+  .fwr_img_1_ckgd{
+    height: 40px;
+  }
+  .fwr_img_1 h5{
+    line-height: 40px;
+    font-size: 20px;
+  }
+  .yitianyi{
+    background: url(../images/shoye_5_2.png);
+  }
+  .fwr_img_1 div:nth-child(1) img{
+    margin-top: 16px;
+    width: 30px;
+  }
+  .fwr>div:nth-child(1)>h3{
+    margin-top: 20px;
+  }
+  .fwr_img>div:nth-child(1n)>div:nth-child(1){
+    height: 60px;
+  }
+  .fwr_img_1>div:nth-child(2) h4{
+    font-size: 20px;
+  }
+  .fwr_img_1>div:nth-child(2) p{
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .fwr_img_1>div:nth-child(2){
+    height: 200px;
+  }
+  .fwr_img div:nth-child(1) h3{
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 10px;
+  }
+.fwr .xian{
+    margin-left: 0px;
+}  
+  .dianh{
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .prev, .next{
+    margin-top: -50%;
+  }
+  .slides-box{
+    height: 500px;
+  }
+  .pagination{
+    bottom: 400px;
+  }
+  .fwr{
+    width: 90%;
+    height: 1150px;
+    margin: 0 auto;
+  }
+  .fwr_img>div{
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .business>div:nth-child(2) div:nth-child(4){
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .business>div:nth-child(2) div:nth-child(6){
+    font-size: 16px;
+     line-height: 30px;
+  }
+  .business>div:nth-child(2) div:nth-child(5){
+    margin-top: 6px;
+  }
+  .awo>div:nth-child(1) div:nth-child(2){
+    font-size: 12px;
+    letter-spacing: 0px;
+  }
+  .awo>div:nth-child(1) div:nth-child(4){
+    font-size: 16px;
+  }
+  .business>div:nth-child(2) div:nth-child(5){
+    font-size: 18px;
+  }
+  .fwr>div:nth-child(1)>h3{
+    padding-top: 0;
+    font-size: 20px;
+    text-align: left;
+  }
+  .fwr>div:nth-child(2)>h4{
+    font-size: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .yitianyi{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .fwr_img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+  }
+  .affordable div:nth-child(1) div:nth-child(6){
+    background: url(../images/shoyeimg_13_2.png)no-repeat center;
+    background-size: 100% auto;
+  }
+  .yitianyi{
+    width: 100%;
+    height: auto;
+  }
+  .affordable>div{
+    margin-left: 20px;
+  }
+  .affordable div:nth-child(1) div:nth-child(1){
+    margin-top: 30px;
+  }
+  .business>div:nth-child(2) div:nth-child(1){
+    width: 260px;
+    background-size: 100% auto;
+    margin-top: 0;
+  }
+  .business>div:nth-child(2) div:nth-child(2){
+   font-size: 12px;
+    letter-spacing: 0px;
+  }
+  .fwr>div:nth-child(4){
+    text-align: left;
+
+  }
+  .awo>div:nth-child(1) div:nth-child(1) h2{
+    font-size: 20px;
+  }
+  .affordable{
+    width: 100%;
+    height: auto;
+  }
+  .fwr_img{
+    margin: 10px auto;
+  }
+ .business>div:nth-child(1){
+    width: 70%;
+    height: 370px;
+    margin-left: 10%;
+    background: url(../images/shoye_6.png)no-repeat center;
+    background-size: 100% auto;
+ }
+ .affordable div:nth-child(1) div:nth-child(1){
+    width: 210px;
+    height:40px;
+ }
+ .awo>div:nth-child(2) ul li{
+    width: 100px;
+    height: 100px;
+ }
+ .awo>div:nth-child(2){
+    height: 100px;
+ }
+ .case_wenan{
+    font-size: 0px;
+    line-height: 20px;
+    margin-left: 20px;
+    text-align: left;
+    display: none;
+ }
+ .case>div:nth-child(2) h3{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+ }
+ .case .ckgd a{
+    margin-left: 20px;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+ }
+ .case .ckgd{
+   margin-top: 4px;
+ }
+ .case>div:nth-child(3) h3{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+ }
+ .awo>div:nth-child(1) div:nth-child(1){
+    font-size: 22px;
+ }
+ .case>div:nth-child(1) h2{
+    font-size: 20px;
+   text-align: left;
+   margin-left: 20px;
+ }
+ .awo>div:nth-child(2) ul li{
+    margin-bottom: 40px;
+ }
+ .fgk div a{
+
+    padding: 5px 33px;
+ }
+ .fgk{
+    height: 60px;
+ }
+ .fgk div{
+    font-size: 16px;
+    width: 90%;
+ }
+ .fgk div span{
+    margin-left: 16px;
+ }
+ .affordable div:nth-child(1) div:nth-child(2) h3{
+   font-size: 12px;
+    letter-spacing: 0px;
+ }
+ .affordable div:nth-child(1) div:nth-child(3){
+    margin-top: 5px;
+ }
+ .affordable div:nth-child(1) div:nth-child(4){
+    font-size: 12px;
+    line-height: 36px;
+    margin-top: 4px;
+ }
+ .affordable div:nth-child(1) div:nth-child(4){
+    font-size: 18px;
+    line-height: 20px;
+ }
+ .affordable div:nth-child(1) div:nth-child(6){
+    width: 90%;
+    height: 200px;
+    margin-top: 0;
+ }
+ .affordable div:nth-child(1) div:nth-child(5){
+    font-size: 20px;
+    margin-top: 4px;
+ }
+
+.business>div:nth-child(2){
+    width: 90%;
+    margin-left: 20px;
+}
+.awo{
+    width: 100%;
+    height: 300px;
+}
+.case>div:nth-child(1) p{
+    font-size: 0px;
+    text-align: left;
+    margin-left: 20px;
+    display: none;
+}
+.awo>div:nth-child(1){
+    margin-left: 20px;
+}
+.awo>div:nth-child(2){
+    width: 100%;
+}
+.awo>div:nth-child(2) ul li{
+    width: 24px;
+    margin-right:1px;
+    height: 100px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+.awo>div:nth-child(2) ul a:nth-child(5n) li{
+     margin-right:1px;
+}
+.awo>div:nth-child(2) ul{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.awo>div:nth-child(2) ul a:nth-child(1n) li>p{
+    font-size: 16px;
+    line-height: 18px;
+}
+.case{
+    width: 100%;  
+    height: 600px;
+}
+.case .xian{
+    margin: 10px 20px 10px;
+    float: left;
+    display: none;
+}
+.case>div:nth-child(1){
+      margin-top: 20px;
+}
+.case>div:nth-child(2){
+    width: 100%;
+    height: 200px;
+}
+.case>div:nth-child(2)>div:nth-child(1){
+    width: 100%;
+    height: auto;
+}
+.case>div:nth-child(2)>div:nth-child(2){
+    width: 90%;
+    height: auto;
+}
+.case>div:nth-child(3)>div:nth-child(1){
+    width: 100%;
+    height: auto;
+}
+.awo>div:nth-child(1) div:nth-child(4){
+    width: 92%;
+}
+.case>div:nth-child(3)>div:nth-child(2){
+    width: 100%;
+    height: 240px;
+}
+.case>div:nth-child(3)>div:nth-child(1) img{
+    width: 100%;
+    height: auto;
+}
+.Journalism_qb{
+    width: 100%;
+    height: auto;
+}
+.Journalism_qb .Journalism_nr{
+    width: 100%;
+    margin-left: 2%;
+}
+.Journalism_qb .Journalism_nr h4{
+    font-size: 30px;
+}
+.Journalism_xiao{
+    width: 100%;
+    height: 60px;
+}
+.Journalism .Journalism_qb .Journalism_nr .Journalism_qb_xwbt{
+    font-size: 16px;
+}
+.Journalism_xiao div:nth-child(2) p{
+    font-size: 20px;  
+    width:100%;
+    display: none;
+}
+.Journalism_shix{
+   display: none;
+}
+ .Journalism_img{
+    width: 100%;
+    height: auto;
+    background: url(../images/shoye_53.jpg)no-repeat;
+    overflow: hidden;
+    background-size: 100% auto;
+}
+.bottom .bottom_gy ul li:nth-child(1){
+   display: none;
+}
+.Journalism_qb>div:nth-child(1){
+    text-align: left;
+    margin-left: 20px;
+}
+.Journalism .Journalism_shix div:nth-child(2) h4{
+    font-size: 22px;
+}
+.Journalism_shix div:nth-child(2) p{
+    font-size: 16px;
+}
+.case>div:nth-child(3){
+    width: 100%;
+    height: 200px;
+}
+
+.Journalism_xiao a>div:nth-child(2){
+    margin-left: 0;
+}
+.Journalism_qb>div:nth-child(1) p{
+    display: none;
+}
+.business{
+    width: 100%;
+    margin: 0 auto;
+}
+.Journalism_qb>div:nth-child(1) div{
+    margin-left: 0px;
+    display: none;
+}
+.Journalism_qb>div:nth-child(1) h2{
+   font-size: 20px;
+   text-align: left;
+   margin-top: 20px;
+   
+}
+.Journalism_shix_shox{
+    width: 100%;
+}
+.Journalism_shix div:nth-child(1) div:nth-child(2) h4{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.Journalism_shix div:nth-child(1) div:nth-child(2) p{
+    width: 90%;
+    font-size: 14px;
+}
+.Journalism_shix_shox_wz{
+    margin-top: 78px;
+}
+}
+@media screen and (min-width: 970px) and (max-width: 1200px){
+  .prev, .next{
+    top: 60%;
+  }
+  .daodianh{
+    color: #333;
+    z-index: 106;
+  }
+  .fwr_img_1_ckgd{
+    height: 40px;
+  }
+  .fwr_img_1 h5{
+    line-height: 40px;
+    font-size: 16px;
+  }
+  .fwr_img_1 div:nth-child(1) img{
+    margin-top: 4%;
+    height: 60%;
+    width: auto;
+    
+  }
+  .awo>div:nth-child(1) div:nth-child(1) h2{
+    font-size: 22px;
+  }
+  .case>div:nth-child(1) h2{
+    font-size: 22px;
+  }
+  .Journalism_qb>div:nth-child(1) h2{
+    font-size: 22px;
+  }
+  .case>div:nth-child(3) h3{
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  .fwr>div:nth-child(1)>h3{
+    margin-top: 20px;
+  }
+  .fwr_img>div:nth-child(1n)>div:nth-child(1){
+    height: 60px;
+  }
+  .fwr_img_1>div:nth-child(2) h4{
+    font-size: 18px;
+  }
+  .fwr_img_1>div:nth-child(2) p{
+    font-size: 14px;
+  }
+  .fwr_img_1>div:nth-child(2){
+    height: 200px;
+  }
+  .fwr_img div:nth-child(1) h3{
+    font-size: 20px;
+    line-height: 60px;
+  }
+  .business>div:nth-child(2) div:nth-child(2){
+    font-size: 14px;
+  }
+  .awo>div:nth-child(1) div:nth-child(2){
+    font-size: 14px;
+  }
+  .case_wenan{
+    font-size: 14px;
+  }
+  .Journalism_qb>div:nth-child(1) p{
+    font-size: 14px;
+  }
+  .awo>div:nth-child(1) div:nth-child(4){
+    font-size: 14px;
+  }
+  .daoh h1{
+    width: 206px;
+    height: 60px;
+    background: url(../images/logo_2.png)no-repeat center;
+  }
+  
+  .banner .slides ul li{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+  }
+  .dianh{
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .prev, .next{
+    margin-top: -25%;
+  }
+  .slides-box{
+    height: auto;
+  }
+  .pagination{
+    bottom: 400px;
+  }
+  .fwr{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .fwr>div:nth-child(1)>h3{
+    padding-top: 0;
+    font-size: 22px;
+  }
+  .fwr>div:nth-child(2)>h4{
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .yitianyi{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .fwr_img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+  }
+  .affordable div:nth-child(1) div:nth-child(6){
+    background: url(../images/shoyeimg_13_2.png)no-repeat center;
+    background-size: 100% auto;
+  }
+  .fgk div{
+    font-size: 16px;
+  }
+  .yitianyi{
+    width: 100%;
+    height: 340px;
+    background: url(../images/shoye_5_3.png);
+    background-size: 100% auto;
+  }
+  .affordable div{
+    margin-left: 7%;
+  }
+  .affordable div:nth-child(1) div:nth-child(1){
+    margin-top: 30px;
+  }
+  .business>div:nth-child(2) div:nth-child(1){
+    width: 300px;
+    background-size: 100% auto;
+  }
+  .affordable{
+    width: 100%;
+    height: auto;
+  }
+ .business>div:nth-child(1){
+    width: 40%;
+    height: 500px;
+    margin-left: 8%;
+    background: url(../images/shoye_6.png)no-repeat center;
+    background-size: 100% auto;
+ }
+ .affordable div:nth-child(1) div:nth-child(1){
+    width: 200px;
+    height: 30px;
+ }
+ .affordable div:nth-child(1) div:nth-child(2) h3{
+    font-size: 12px;
+ }
+ .affordable div:nth-child(1) div:nth-child(3){
+    margin-top: 5px;
+ }
+ .affordable div:nth-child(1) div:nth-child(4){
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 4px;
+ }
+ .affordable div:nth-child(1) div:nth-child(4){
+    font-size: 14px;
+ }
+ .affordable div:nth-child(1) div:nth-child(6){
+    width: 400px;
+    height: 140px;
+    margin-top: 0;
+ }
+ .affordable div:nth-child(1) div:nth-child(5){
+    font-size: 20px;
+    margin-top: 4px;
+ }
+.business>div:nth-child(2){  
+    margin-left: 0px;
+}
+.awo{
+    width: 100%;
+}
+.awo ul{
+    width: 100%;
+    height: auto;
+}
+.awo>div:nth-child(1){
+    margin-left: 7%;
+}
+.awo>div:nth-child(2){
+    width: 100%;
+    height: 300px;
+    background: url(../images/bsbj.jpg);
+}
+.awo>div:nth-child(2) ul li{
+    margin-right:2%;
+    margin-bottom: 20px;
+}
+.awo>div:nth-child(2) ul{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.awo>div:nth-child(2) ul a:nth-child(1n) li:hover>div{
+    display: none;
+ }
+ .awo>div:nth-child(2) ul a:nth-child(1n) li:hover>p{
+   font-size: 22px;
+   color: #fff;
+ }
+.case{
+    width: 84%;
+    margin: 0 auto;
+}
+.case>div:nth-child(2) h3{
+    margin-top: 18px;
+    font-size: 20px;
+}
+.case>div:nth-child(2){
+    width: 100%;
+} 
+.case>div:nth-child(2)>div:nth-child(1){
+    width: 50%;
+}
+.case>div:nth-child(2)>div:nth-child(2){
+    width: 50%;
+    height: auto;
+}
+.case>div:nth-child(3)>div:nth-child(1){
+    width: 50%;
+    height: auto;
+}
+.case>div:nth-child(3)>div:nth-child(2){
+    width: 50%;
+}
+.case>div:nth-child(3)>div:nth-child(1) img{
+    width: 100%;
+    height: auto;
+}
+.Journalism_qb{
+    width: 84%;
+    height: auto;
+}
+.Journalism_qb .Journalism_nr{
+    width: 48%;
+    margin-left: 2%;
+}
+.Journalism_qb .Journalism_nr h4{
+    font-size: 40px;
+}
+.Journalism_xiao{
+    width: 94%;
+}
+.Journalism .Journalism_qb .Journalism_nr .Journalism_qb_xwbt{
+    font-size: 18px;
+}
+.Journalism_xiao div:nth-child(2) p{
+    font-size: 14px;  
+    width: 100%;
+}
+.Journalism_shix_shox{
+    width: 100%;
+}
+.Journalism_shix{
+    width: 50%;
+}
+ .Journalism_img{
+    width: 100%;
+    height: auto;
+    background: url(../images/shoye_53.jpg)no-repeat;
+    overflow: hidden;
+    background-size: 100% auto;
+}
+.Journalism .Journalism_shix div:nth-child(2) h4{
+    font-size: 22px;
+}
+.Journalism_xiao a>div:nth-child(2){
+    margin-left: 10px;
+}
+.Journalism_shix div:nth-child(2) p{
+    font-size: 16px;
+}
+
+.case>div:nth-child(3){
+    width: 100%;
+}
+.business{
+    width: 100%;
+}
+}
+@media screen and (min-width: 750px) and (max-width: 969px){
+ 
+  .prev, .next{
+    top: 34%;
+  }
+  .daodianh{
+    color: #333;
+    z-index: 106;
+  }
+  .daoh ul li a{
+    font-size: 14px;
+  }
+  .fwr_img_1_ckgd{
+    height: 40px;
+  }
+  .fwr_img_1 h5{
+    line-height: 40px;
+    font-size: 16px;
+  }
+  .yitianyi{
+    background: url(../images/shoye_5_2.png);
+  }
+  .fwr_img_1 div:nth-child(1) img{
+    margin-top: 0;
+    height: 60%;
+    width: auto;
+    margin-top:7%;
+   
+  }
+  .fwr>div:nth-child(1)>h3{
+    margin-top: 20px;
+  }
+  .fwr_img>div:nth-child(1n)>div:nth-child(1){
+    height: 60px;
+  }
+  .fwr_img_1>div:nth-child(2) h4{
+    font-size: 16px;
+  }
+  .fwr_img_1>div:nth-child(2) p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .fwr_img_1>div:nth-child(2){
+    height: 200px;
+  }
+  .fwr_img div:nth-child(1) h3{
+    font-size: 18px;
+    line-height: 60px;
+  }
+  .daoh h1{
+    width: 150px;
+    height: 60px;
+    background: url(../images/logo_2.png)no-repeat center;
+    background-size: 100% auto;
+  }
+  .banner{
+    height: auto;
+  }
+  .banner .slides ul li{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+  }
+  .dao .hender_dh>li>ol{
+    transform: translate(-20px,-40px);
+  }
+  .dianh{
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .prev, .next{
+    margin-top: -25%;
+  }
+  .slides-box{
+    height: 500px;
+  }
+  .fwr{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .business>div:nth-child(2) div:nth-child(4){
+    line-height: 20px;
+  }
+  .business>div:nth-child(2) div:nth-child(6){
+     line-height: 24px;
+  }
+  .business>div:nth-child(2) div:nth-child(5){
+    margin-top: 10px;
+  }
+  .fwr>div:nth-child(1)>h3{
+    padding-top: 0;
+    font-size: 26px;
+  }
+  .fwr>div:nth-child(2)>h4{
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .yitianyi{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .fwr_img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+  }
+  .affordable div:nth-child(1) div:nth-child(6){
+    background: url(../images/shoyeimg_13_2.png)no-repeat center;
+    background-size: 100% auto;
+  }
+  .yitianyi{
+    width: 100%;
+    height: auto;
+  }
+  .affordable div{
+    margin-left: 7%;
+  }
+  .affordable div:nth-child(1) div:nth-child(1){
+    margin-top: 30px;
+  }
+  .business>div:nth-child(2) div:nth-child(1){
+    width: 340px;
+    background-size: 100% auto;
+  }
+  .affordable{
+    width: 100%;
+    height: auto;
+  }
+ .business>div:nth-child(1){
+    width: 40%;
+    height: 400px;
+    margin-left: 8%;
+    background: url(../images/shoye_6.png)no-repeat center;
+    background-size: 100% auto;
+ }
+ .affordable div:nth-child(1) div:nth-child(1){
+    width: 200px;
+    height: 30px;
+ }
+ .awo>div:nth-child(2) ul li{
+    width: 100px;
+    height: 100px;
+ }
+ .awo>div:nth-child(2){
+    height: 280px;
+ }
+ .case_wenan{
+    font-size: 14px;
+    line-height: 16px;
+ }
+ .case>div:nth-child(2) h3{
+    font-size: 20px;
+    margin-top: 20px;
+ }
+ .case>div:nth-child(3) h3{
+    font-size: 20px;
+    margin-top: 20px;
+ }
+ .awo>div:nth-child(1) div:nth-child(1){
+    font-size: 20px;
+ }
+ .case>div:nth-child(1) h2{
+    font-size: 22px;
+ }
+ .awo>div:nth-child(2) ul li{
+    margin-bottom: 10px;
+ }
+ .fgk div a{
+    padding: 5px 33px;
+ }
+ .fgk{
+    height: 60px;
+ }
+ .awo>div:nth-child(2) ul a:nth-child(1n) li:hover>div{
+    display: none;
+ }
+ .awo>div:nth-child(2) ul a:nth-child(1n) li>p{
+    font-size: 20px;
+    
+ }
+ .awo>div:nth-child(2) ul a:nth-child(1n) li:hover>p{
+    font-size: 20px;
+    color: #fff;
+ }
+ .fgk div{
+    font-size: 20px;
+    width: 60%;
+ }
+ .affordable div:nth-child(1) div:nth-child(2) h3{
+    font-size: 12px;
+ }
+ .affordable div:nth-child(1) div:nth-child(3){
+    margin-top: 5px;
+ }
+ .affordable div:nth-child(1) div:nth-child(4){
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 4px;
+ }
+ .affordable div:nth-child(1) div:nth-child(4){
+    font-size: 14px;
+ }
+ .affordable div:nth-child(1) div:nth-child(6){
+    width: 400px;
+    height: 140px;
+    margin-top: 0;
+ }
+ .affordable div:nth-child(1) div:nth-child(5){
+    font-size: 20px;
+    margin-top: 4px;
+ }
+
+.business>div:nth-child(2){
+    margin-left: 0px;
+}
+.awo{
+    width: 100%;
+}
+.awo ul{
+    width: 100%;
+    height: auto;
+}
+.awo>div:nth-child(1){
+    margin-left: 7%;
+}
+.awo>div:nth-child(2){
+    width: 100%;
+    background: url(../images/bsbj.jpg);
+}
+.awo>div:nth-child(2) ul li{
+    margin-right:2%;
+}
+.awo>div:nth-child(2) ul{
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.case{
+    width: 82%;
+    margin: 0 auto;
+}
+.case>div:nth-child(2){
+    width: 100%;
+    height: 200px;
+}
+.case>div:nth-child(2)>div:nth-child(1){
+    width: 50%;
+    height: 200px;
+}
+.case>div:nth-child(2)>div:nth-child(2){
+    width: 50%;
+    height: 200px;
+}
+.case>div:nth-child(3)>div:nth-child(1){
+    width: 50%;
+    height: auto;
+
+}
+.awo>div:nth-child(1) div:nth-child(4){
+    width: 92%;
+}
+.case>div:nth-child(3)>div:nth-child(2){
+    width: 50%;
+    height: 200px;
+}
+.case>div:nth-child(3)>div:nth-child(2) img{
+    width: 100%;
+    height: auto;
+}
+.Journalism_qb{
+    width: 82%;
+    height: auto;
+}
+.Journalism_qb .Journalism_nr{
+    width: 58%;
+    margin-left: 2%;
+}
+.Journalism_qb .Journalism_nr h4{
+    font-size: 30px;
+}
+.Journalism_xiao{
+    width: 100%;
+    height: 60px;
+}
+.Journalism_xiao div:nth-child(2) p{
+    width: 80%;
+}
+.Journalism .Journalism_qb .Journalism_nr .Journalism_qb_xwbt{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.Journalism_xiao div:nth-child(2) p{
+    font-size: 14px;  
+    width: 100%;
+    margin-top: 4px;
+}
+.Journalism_shix{
+    width: 40%;
+}
+.awo>div:nth-child(2) ul a:nth-child(1n) li{
+    margin-right: 34px;
+}
+ .Journalism_img{
+    width: 100%;
+    height: auto;
+    background: url(../images/shoye_53.jpg)no-repeat;
+    overflow: hidden;
+    background-size: 100% auto;
+}
+.Journalism .Journalism_shix div:nth-child(2) h4{
+    font-size: 22px;
+}
+.Journalism_shix div:nth-child(2) p{
+    font-size: 16px;
+}
+.case>div:nth-child(3){
+    width: 100%;
+    height: 200px;
+}
+.business{
+    width: 100%;
+}
+.Journalism_qb>div:nth-child(1) h2{
+    font-size:22px;
+}
+.Journalism_shix_shox{
+    width: 100%;
+    height: 200px;
+}
+.Journalism_shix div:nth-child(1) div:nth-child(2) h4{
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+.Journalism_img .Journalism_img_1{
+    width: 60px;
+    height: 60px;
+}
+.Journalism_img .Journalism_img_1 h4{
+    font-size: 30px;
+}
+.Journalism_img .Journalism_img_1 p{
+    font-size: 14px;
+}
+.Journalism_shix div:nth-child(1) div:nth-child(2) p{
+    width: 90%;
+    font-size: 14px;
+}
+.Journalism_shix_shox_wz{
+    margin-top: 0px;
+}
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .banner .swiper-wrapper div:nth-child(1){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(2){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(3){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(4){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(5){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(6){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(7){
+    display: block;
+}
+.banner .swiper-wrapper div:nth-child(8){
+    display: block;
+}
+.banner .swiper-wrapper div:nth-child(9){
+    display: block;
+}
+.yitianyi{
+
+    width: 100%;
+    height: 480px;
+    margin-top: 40px;
+}
+.Journalism_shix_shox{
+    width: 100%;
+}
+.Journalism_img{
+    width: 100%;
+    height: auto;
+}
+.Journalism_shix div:nth-child(1) div:nth-child(2) h4{
+    font-size: 20px;
+}
+.Journalism_xiao a>div:nth-child(2) {
+    margin-left: 10px;
+    width: 80%;
+}
+.Journalism_shix_shox_wz{
+    margin-top: 60px;
+}
+
+.affordable{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+.fwr_img div:nth-child(1) h3{
+    font-size: 22px;
+}
+.fwr_img_1>div:nth-child(2) h4{
+    font-size: 18px;
+}
+ .banner #sangexiaoyund ul li:nth-child(2){
+       background: url(../images/banner20.ipg);
+    }
+.fwr{
+    margin: 0 auto;
+    height:600px;
+}
+.fwr_img{
+    width: 70%;
+    margin: 20px auto;
+}
+.fwr_img_1 div:nth-child(1) img{
+    height: 50%;
+    width:  auto;
+}
+.fwr_img div:nth-child(1) h3{
+    text-align: center;
+}
+.affordable div:nth-child(1) div:nth-child(1){
+    width: 70%;
+    height: 50px;
+    margin-top: 50px;
+    background: url(../images/shoye_4.png)no-repeat center;
+    background-size: 100% auto;
+}
+.affordable div:nth-child(1) div:nth-child(1){
+    margin-top: 60px;
+}
+.affordable div:nth-child(1) div:nth-child(3){
+    margin-top: 6px;
+}
+
+.affordable div:nth-child(1) div:nth-child(2) h3{
+    font-size: 16px;
+    color: #333;
+}
+.affordable div:nth-child(1) div:nth-child(3){
+    width: 70px;
+    height: 2px;
+    margin-top: 12px;
+    background-color: #eb813a;
+}
+.affordable div:nth-child(1) div:nth-child(4){
+    font-size: 16px;
+    color: #333;
+    margin-top: 6px;
+    line-height: 20px;
+}
+.affordable div:nth-child(1) div:nth-child(5){
+    font-size: 20px;
+    color: #e9403f;
+    margin-top: 3%;
+}
+.affordable div:nth-child(1) div:nth-child(6){
+    width: 150%;
+    height: 150px;
+    margin-top:0px;
+    background: url(../images/shoyeimg_13.png)no-repeat center left;
+    background-size: auto 100%;
+
+}
+.affordable>div:nth-child(2){
+    width: 536px;
+    height: 472px;
+    background: url(../images/shoyeimg_07.gif)no-repeat center;
+}
+.business{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.case>div:nth-child(3) h3{
+    margin-top: 20px;
+}
+.case>div:nth-child(2) h3{
+    margin-top: 20px;
+}
+.case>div:nth-child(2){
+    height: auto;
+}
+.case>div:nth-child(2)>div:nth-child(2){
+    height: auto;
+}
+.business>div:nth-child(1){
+    width: 50%;
+    height: 540px;
+    background: url(../images/shoye_6.png)no-repeat center;
+    background-size: 100% auto;
+  
+}
+.business>div:nth-child(2){
+    margin-left: 4%;
+}
+.business>div:nth-child(2) div:nth-child(1){
+    width: 340px;
+    height: 40px;
+    margin-top: 40px;
+    background: url(../images/shoye_7.png)no-repeat center;
+    background-size: 100% auto;
+}
+.business>div:nth-child(2) div:nth-child(2){
+    font-size: 16px;
+}
+.business>div:nth-child(2) div:nth-child(3){
+    width: 82px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: #eb813a;
+}
+.business>div:nth-child(2) div:nth-child(4){
+    font-size: 16px;
+    margin-top: 16px;
+    color: #333;
+    line-height: 30px;
+}
+.business>div:nth-child(2) div:nth-child(5){
+    font-size: 20px;
+    margin-top: 20px;
+    color: #e9403f;
+}
+.business>div:nth-child(2) div:nth-child(6){
+    font-size: 16px;
+    margin-top: 14px;
+    color: #333;
+    line-height: 34px;
+}
+.awo{
+    width: 1000px;
+    margin:0 auto;
+}
+.awo>div:nth-child(2) ul li{
+    margin-right: 6%;
+    margin-bottom: 6%;
+
+}
+.awo>div:nth-child(1) div:nth-child(1){
+    margin-top: 30px;
+}
+.case>div:nth-child(2)>div:nth-child(2){
+    width: 50%;
+}
+.case>div:nth-child(2)>div:nth-child(1){
+    width: 50%;
+}
+.case>div:nth-child(3){
+    width: 75%;
+    margin: 0 auto;
+}
+.case>div:nth-child(3)>div:nth-child(2){
+    width: 50%;
+}
+.case>div:nth-child(3)>div:nth-child(1){
+    width: 50%;
+}
+.case>div:nth-child(3)>div:nth-child(1) img{
+    width: 100%;
+    height: auto;
+}
+.awo>div:nth-child(2){
+    background-size: 0 0; 
+}
+.case>div:nth-child(2){
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.Journalism_qb{
+    width: 75%;
+}
+.Journalism_img_1 h4{
+    font-size: 40px;
+}
+.Journalism_xiao div:nth-child(2) h4{
+    font-size: 20px;
+    width: 100%;
+    height: 24px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.Journalism_xiao{
+    top: 4px;
+    height: 80px;
+}
+.Journalism_xiao div:nth-child(2) p{
+    font-size: 14px;
+    width: 100%;
+}
+.Journalism_xiao{
+    width: 100%;
+}
+.Journalism_nr{
+   width: 50%;
+}
+.Journalism_shix{
+    width: 50%;
+}
+.Journalism_shix div:nth-child(2) h4{
+    font-size: 22px;
+}
+.Journalism_shix div:nth-child(2) div{
+    transform:translate(-100px,40px);
+}
+.yqlj h3{
+    margin-top: 50px;
+}
+}
+@media screen and (min-width: 1401px) and (max-width: 1500px){
+    .affordable{
+        width: 1000px;
+    }
+    .fwr_img{
+        width: 1000px;
+    }
+    .business{
+        width: 1000px;
+    }
+
+    .business>div:nth-child(1){
+        width: 50%;
+    }
+    .business>div:nth-child(2){
+        margin-left: 20px;
+    }
+    .case>div:nth-child(3) h3{
+        margin-top: 40px;
+    }
+    .case>div:nth-child(2) h3{
+  margin-top: 40px;
+    }
+    .awo>div:nth-child(2) ul a:nth-child(1n) li:hover>div{
+     width: 200px;
+     height: 220px;
+    }
+    .awo>div:nth-child(2) ul a:nth-child(1n) li:hover>div p{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .awo>div:nth-child(2) ul a:nth-child(5) li:hover>div{
+        transform:translate(-56px,0px);
+     width: 200px;
+     height: 220px;
+    }
+    .awo>div:nth-child(2) ul a:nth-child(6) li:hover>div{
+        transform:translate(-0px,-80px);
+    }
+    .awo>div:nth-child(2) ul a:nth-child(7) li:hover>div{
+        transform:translate(-0px,-80px);
+    }
+    .awo>div:nth-child(2) ul a:nth-child(8) li:hover>div{
+       transform:translate(-0px,-80px);
+    }
+    .awo>div:nth-child(2) ul a:nth-child(9) li:hover>div{
+       transform:translate(-0px,-80px);
+    }
+    .awo{
+        width: 1000px;
+    }
+    .awo>div:nth-child(2){
+        height: auto;
+    }
+    .awo>div:nth-child(2) ul li:nth-child(1n){
+        margin-right: 68px;
+    }
+    .awo>div:nth-child(2) ul li:nth-child(5n){
+        margin-right: 0px;
+    }
+  .awo>div:nth-child(2){
+    width: 1000px;
+    height: auto;
+    background-size: 100% auto;
+  }
+  .case>div:nth-child(2){
+    width: 1000px;
+  }
+.case>div:nth-child(2)>div:nth-child(1){
+    width: 50%;
+}
+.case>div:nth-child(2)>div:nth-child(2){
+    width: 50%;
+}
+.case>div:nth-child(3){
+    width: 1000px;
+}
+.case>div:nth-child(3)>div:nth-child(1){
+    width: 50%;
+}
+.case>div:nth-child(3)>div:nth-child(2){
+    width: 50%;
+}
+.Journalism_qb{
+    width: 1000px;
+}
+.Journalism_qb .Journalism_nr{
+    width: 50%;
+}
+.Journalism_qb .Journalism_nr p{
+    width: 100%;
+}
+.Journalism_xiao{
+    width: 100%;
+}
+.Journalism_shix{
+    width: 50%;
+    height: 327px;
+}
+.Journalism_img{
+        width: 100%;
+}
+.banner .swiper-wrapper div:nth-child(1){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(2){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(3){
+    display: none;
+}
+.banner .swiper-wrapper div:nth-child(4){
+    display: block;
+}
+.banner .swiper-wrapper div:nth-child(5){
+    display: block;
+}
+.banner .swiper-wrapper div:nth-child(6){
+    display: block;
+}
+}
