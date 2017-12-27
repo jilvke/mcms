@@ -21,241 +21,45 @@
 <!-- 新闻 开始 -->
 <div class="ljsh">
     <div class="ec_l_j">
-        <ul class="tabtitle">
-            <li class="tabhover">全部新闻</li>
-            <li class="taba">企业动态</li>
-            <li class="taba">行业动态</li>
-            <li class="taba">常见问题</li>
-            <li class="taba">在线客服</li>
-            <li class="taba">呼叫中心</li>
-            <li class="taba">h5页面</li>
+        <ul class="tabtitle" style="width: 1000px">
+            <li class="tabhover " id="allNews">全部新闻</li>
+            {ms:channel type=son typeid=44 order=asc}
+            <a href="[field.typelink/]">
+                <li class="taba">[field.typetitle/]</li>
+            </a>
+            {/ms:channel}
         </ul>
     </div>
     <!-- 1  -->
-    <div class="tabcontent">
+<    <div class="tabcontent">
         <ul class="clearfix">
+            {ms:arclist  ispaging=true order=desc size=8 }
             <li class="fl">
-                <a href="{ms:globalskin.url/}ec_journalism_zi.html" target="_blank">
-                    <h3>CRM和SCRM的区别在哪里？</h3>
+                <a href="[field.link/]" target="_blank">
+                    <h3>[field.title/]</h3>
                     <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
+                        <img src="{ms:global.host/}[field.litpic/]">
                     </div>
-                    <h5>2017年11月1日</h5>
-                    <p>首先我们从定义上来说，CRM中文翻译是“客户关系管理”，是企业ERP系为一立软件之...</p>
+                    <h5>[field.date fmt=yyyy-MM-dd/]</h5>
+                    <p>[field.descrip/]</p>
                 </a>
             </li>
-            <li class="fl">
-                <a href="{ms:globalskin.url/}ec_journalism_zi.html" target="_blank">
-                    <h3>公司使用客户关系管理软件..</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw1.png">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>对于公司为什么要使用CRM系统，大家有不同的看法和理解，有些人售业绩...</p>
-                </a>
-            </li>
-            <li class="fl">
-                <a href="{ms:globalskin.url/}ec_journalism_zi.html" target="_blank">
-                    <h3>公司使用客户关系管理软件..</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw2.png">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>对于公司为什么要使用CRM系统，大家有不同的看法和理解，有些人觉销售业绩...</p>
-                </a>
-            </li>
-            <li class="fl">
-                <a href="{ms:globalskin.url/}ec_journalism_zi.html" target="_blank">
-                    <h3>公司使用客户关系管理软件..</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw3.png">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>对于公司为什么要使用CRM系统，大家有不同的看法和理提升销售业绩...</p>
-                </a>
-            </li>
-
-        </ul>
-    </div>
-    <!-- 2 -->
-    <div class="tabcontent" style="display: none;">
-        <ul class="clearfix">
-            <li class="fl">
-                <a href="{ms:globalskin.url/}ec_journalism_zi.html" target="_blank">
-                    <h3>公司使用客户关系管理软件的五个原因</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>对于公司为什么要使用CRM系统，大家有不同的看法和理解，有业绩...</p>
-                </a>
-            </li>
-
-        </ul>
-    </div>
-    <!-- 4 -->
-    <div class="tabcontent" style="display: none;">
-        <ul class="clearfix">
-
-            <li class="fl">
-                <a href="{ms:globalskin.url/}ec_journalism_zi.html" target="_blank">
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什么新闻那，有没有好消息，好消息到了，今天是个好日子今天...</p>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <!-- 5 -->
-    <div class="tabcontent" style="display: none;">
-        <ul class="clearfix">
-            <li class="fl">
-                <a href="{ms:globalskin.url/}ec_journalism_zi.html" target="_blank">
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什么新闻那，有没到了，就要升官发财了，今天是个好日子今天...</p>
-                </a>
-            </li>
-            <li class="fl">
-                <a href="{ms:globalskin.url/}ec_journalism_zi.html" target="_blank">
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什么新闻那，有没有好消息，好消息好日子今天...</p>
-                </a>
-            </li>
-            <li class="fl">
-                <a href="{ms:globalskin.url/}ec_journalism_zi.html" target="_blank">
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什么新了，就要升官发财了，今天是个好日子今天...</p>
-                </a>
-            </li>
-            <li class="fl">
-                <a href="{ms:globalskin.url/}ec_journalism_zi.html" target="_blank">
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什，好消息到了，就要升官发财了，今天是个好日子今天...</p>
-                </a>
-            </li>
-
-        </ul>
-    </div>
-    <!-- 6 -->
-    <div class="tabcontent" style="display: none;">
-        <ul class="clearfix">
-            <li class="fl">
-                <a>
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什么新闻那，有没有好消息，好消息到了，就要个好日子今天...</p>
-                </a>
-            </li>
-            <li class="fl">
-                <a>
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什么新闻那，有没有好消息，好消财了，今天是个好日子今天...</p>
-                </a>
-            </li>
-            <li class="fl">
-                <a>
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什么新闻那，有没有好消息，就要升官发财了，今天是个好日子今天...</p>
-                </a>
-            </li>
-
-
-        </ul>
-    </div>
-    <!-- 7 -->
-    <div class="tabcontent" style="display: none;">
-        <ul class="clearfix">
-            <li class="fl">
-                <a>
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什么新闻那，有没有好消要升官发财了，今天是个好日子今天...</p>
-                </a>
-            </li>
-            <li class="fl">
-                <a>
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什么新闻那，有没有好消息要升官发财了，今天是个好日子今天...</p>
-                </a>
-            </li>
-
-            <li class="fl">
-                <a>
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什么新闻那，有升官发财了，今天是个好日子今天...</p>
-                </a>
-            </li>
-            <li class="fl">
-                <a>
-                    <h3>新闻标题</h3>
-                    <div>
-                        <img src="{ms:globalskin.url/}images/xw.jpg">
-                    </div>
-                    <h5>2017年11月1日</h5>
-                    <p>有什么新闻那，有没有好消息，发财了，今天是个好日子今天...</p>
-                </a>
-            </li>
-
+            {/ms:arclist}
         </ul>
     </div>
 </div>
 <!-- 新闻 结束 -->
 <div class="fenyefu">
-    <a href="{ms:globalskin.url/}"><</a>
-    <a href="{ms:globalskin.url/}">1</a>
-    <a href="{ms:globalskin.url/}">2</a>
-    <a href="{ms:globalskin.url/}">3</a>
-    <a href="{ms:globalskin.url/}">4</a>
-    <a href="{ms:globalskin.url/}">5</a>
-    <a href="{ms:globalskin.url/}">...</a>
-    <a href="{ms:globalskin.url/}">9</a>
-    <a href="{ms:globalskin.url/}">></a>
-    <span>共9页</span>
+    <a href="{ms:page.index/}">首页</a>
+    <a href="{ms:page.pre/}">上一页</a>
+    <a href="{ms:page.next/}">下一页</a>
+    <a href="{ms:page.last/}">最末页</a>
+    <span>第 {ms:page.cur/} 页   共: {ms:page.total/} 页</span>
 
 </div>
 
-<div class="hddb fr"><a href="{ms:globalskin.url/}ec_journalism.html"><img src="{ms:globalskin.url/}images/hddb.png"></a></div>
+<div class="hddb fr"><a href="{ms:globalskin.url/}ec_journalism.html"><img
+        src="{ms:globalskin.url/}images/hddb.png"></a></div>
 <!-- 底部 开始 -->
 {ms:include filename=footer.htm/}
 <!-- 底部 结束 -->
@@ -278,6 +82,9 @@
             $('.tabcontent').eq(index).show().siblings('.tabcontent').hide();
         });
     })
+    $("#allNews").live("click",function(){
+        window.location="{ms:global.url/}/8/44/index.html";
+    });
 </script>
 </body>
 </html>
