@@ -7,14 +7,12 @@
           <element id="module-output" name="ms-mcms" />
         </element>
         <element id="directory" name="lib">
-          <element id="file-copy" path="$USER_HOME$/.m2/repository/net/mingsoft/ms-base/1.0.2-SNAPSHOT/ms-base-1.0.2-20171025.011103-70.jar" output-file-name="ms-base-1.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/net/mingsoft/ms-base/1.0.2-SNAPSHOT/ms-base-1.0.2-20171221.110734-71.jar" output-file-name="ms-base-1.0.2-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: net.mingsoft:ms-util:1.0.1" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant:1.9.7" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant-launcher:1.9.7" />
-          <element id="library" level="project" name="Maven: net.mingsoft:ms-proxy:1.0.0" />
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.1" />
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.3.4" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/net/mingsoft/ms-proxy/1.0.1-SNAPSHOT/ms-proxy-1.0.1-20171221.110637-1.jar" output-file-name="ms-proxy-1.0.1-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: net.mingsoft:ms-parser:1.0.0" />
           <element id="file-copy" path="$USER_HOME$/.m2/repository/net/mingsoft/ms-ueditor/1.0.0-SNAPSHOT/ms-ueditor-1.0.0-20160421.093747-4.jar" output-file-name="ms-ueditor-1.0.0-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: org.json:json:20160212" />
@@ -191,7 +189,8 @@
           <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-css:1.7" />
           <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-svg-dom:1.7" />
           <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-svggen:1.7" />
-          <element id="file-copy" path="$USER_HOME$/.m2/repository/net/mingsoft/ms-upgrader/1.0.3-SNAPSHOT/ms-upgrader-1.0.3-20170929.141410-12.jar" output-file-name="ms-upgrader-1.0.3-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.8" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5" />
         </element>
       </element>
       <element id="directory" name="META-INF">

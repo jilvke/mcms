@@ -144,7 +144,7 @@
     </#noparse>
     
     <!--左边菜单开始-->
-	<div class="ms-menu-div">2
+	<div class="ms-menu-div">
         <div class="slideMenu">
             <span class="icon iconfont icon-open">&#xe823;</span>
             <span class="icon iconfont icon-close" style="display: none;">&#xe80d;</span>

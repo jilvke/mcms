@@ -38,9 +38,7 @@
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ant:ant:1.9.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.9.7" level="project" />
-    <orderEntry type="library" name="Maven: net.mingsoft:ms-proxy:1.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.3.4" level="project" />
+    <orderEntry type="library" name="Maven: net.mingsoft:ms-proxy:1.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: net.mingsoft:ms-parser:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: net.mingsoft:ms-ueditor:1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.json:json:20160212" level="project" />
@@ -235,6 +233,8 @@
     <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-css:1.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-svg-dom:1.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-svggen:1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.mingsoft:ms-base:sources:1.0.2-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: net.mingsoft:ms-basic:war:1.0.4-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.mingsoft:ms-basic:sources:1.0.4-SNAPSHOT" level="project" />
@@ -245,6 +245,5 @@
     <orderEntry type="library" name="Maven: net.mingsoft:ms-mpeople:war:1.0.2-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.mingsoft:ms-mpeople:sources:1.0.2-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.mingsoft:ms-mpeople:classes:1.0.2-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: net.mingsoft:ms-upgrader:1.0.3-SNAPSHOT" level="project" />
   </component>
 </module>
