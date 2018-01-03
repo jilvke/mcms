@@ -310,19 +310,7 @@ public class ArticleAction extends BaseAction {
 		articleBiz.updateBasic(article);
 
 		// 判断栏目是否存在新增字段
-		if (column.getColumnContentModelId() != 0) {
-			// 保存所有的字段信息
-			List<BaseEntity> listField = fieldBiz.queryListByCmid(column.getColumnContentModelId());
-			// 获取内容模型实体
-			ContentModelEntity contentModel = (ContentModelEntity) contentBiz
-					.getEntity(column.getColumnContentModelId());
-			if (contentModel != null) {
-				// 保存新增字段的信息
-				Map param = this.checkField(listField, request, article.getBasicId());
-				fieldBiz.insertBySQL(contentModel.getCmTableName(), param);
-			}
-
-		}
+		testAddFiled(article, request, column);
 
 		//
 
@@ -435,16 +423,7 @@ public class ArticleAction extends BaseAction {
 					fieldBiz.deleteBySQL(contentModel.getCmTableName(), wheres);
 				}
 				// 判断栏目是否存在新增字段
-				if (column.getColumnContentModelId() != 0) {
-					// 保存所有的字段信息
-					List<BaseEntity> listField = fieldBiz.queryListByCmid(column.getColumnContentModelId());
-					ContentModelEntity newContentModel = (ContentModelEntity) contentBiz
-							.getEntity(column.getColumnContentModelId());
-					if (newContentModel != null) {
-						Map param = this.checkField(listField, request, article.getBasicId());
-						fieldBiz.insertBySQL(newContentModel.getCmTableName(), param);
-					}
-				}
+				testAddFiled(article, request, column);
 			}
 		}
 
@@ -496,6 +475,19 @@ public class ArticleAction extends BaseAction {
 					this.redirectBack(request, false));
 		}
 
+	}
+
+	private void testAddFiled( ArticleEntity article, HttpServletRequest request, ColumnEntity column) {
+		if (column.getColumnContentModelId() != 0) {
+            // 保存所有的字段信息
+            List<BaseEntity> listField = fieldBiz.queryListByCmid(column.getColumnContentModelId());
+            ContentModelEntity newContentModel = (ContentModelEntity) contentBiz
+                    .getEntity(column.getColumnContentModelId());
+            if (newContentModel != null) {
+                Map param = this.checkField(listField, request, article.getBasicId());
+                fieldBiz.insertBySQL(newContentModel.getCmTableName(), param);
+            }
+        }
 	}
 
 	/**
@@ -627,7 +619,7 @@ public class ArticleAction extends BaseAction {
 	/**
 	 * 查询单页栏目是否绑定了文章
 	 * 
-	 * @param article
+	 * @param response
 	 *            文章对象
 	 */
 	@RequestMapping("/{id}/queryColumnArticle")
