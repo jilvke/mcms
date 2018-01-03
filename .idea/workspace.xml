@@ -440,7 +440,7 @@
       <workItem from="1514518505417" duration="15721000" />
       <workItem from="1514876969678" duration="1529000" />
       <workItem from="1514878524528" duration="2281000" />
-      <workItem from="1514942223692" duration="3936000" />
+      <workItem from="1514942223692" duration="4000000" />
     </task>
     <task id="LOCAL-00001" summary="首页信息变更">
       <created>1514969465440</created>
@@ -456,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514969548550</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="方法提取">
+      <created>1514969613318</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1514969613318</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26577000" />
+    <option name="totallyTimeSpent" value="26641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -545,7 +552,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="首页信息变更" />
     <MESSAGE value="去掉自动更新插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="去掉自动更新插件" />
+    <MESSAGE value="方法提取" />
+    <option name="LAST_COMMIT_MESSAGE" value="方法提取" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
