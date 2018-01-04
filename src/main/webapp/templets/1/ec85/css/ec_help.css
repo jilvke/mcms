@@ -1,38 +1,8 @@
 
-
-.hender_dh>li>ol{
-    position: absolute;
-    top: 100px;
-    background-color:  #FFF;
-    width: 10%;
-    display: none;
-    transform:translate(-10px,0);
-    transition:all 0.5s ease;
-} 
-.hender_dh>li>ol>li>a{
-    font-size: 18px;
-    color: #333;
-     display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-.hender_dh>li>ol>li{
-    height: 50px;
-      line-height: 50px;
-}
-.hender_dh>li>ol>li:hover{
-    background-color: #dc2223;
-}
-.hender_dh>li>ol>li:hover>a{
-    font-size: 18px;
-    color: #FFF;
-}
-.dh_hover:hover ol{
-    display: block;
-}
 .banner{
     width: 100%;
     height: auto;
+
 }
 .banner img{
     width: 100%;
@@ -152,6 +122,17 @@
     width:80%;
    }
 }
+@media screen and (min-width: 1401px) and (max-width: 1500px){
+  .banner{
+    margin-top: 60px;
+  }
+  .ljsh{
+    width: 900px;
+   }
+   .tabcontent{
+    width: 750px;
+   }
+}
 @media screen and (min-width: 971px) and (max-width: 1199px){
    .ljsh{
     width: 80%;
@@ -172,12 +153,19 @@
    }
    .chuxian{
     width:80%;
-
    }
-
 }
 @media screen and (max-width: 749px){
- 
+ .ljsh .ec_l_j:first-child{
+  background-color: #fff;
+ }
+ .ljsh{
+  margin-bottom: 60px;
+ }
+ .ljsh .ec_l_j:first-child ul li{
+  display: inline-block;
+  margin-top: 0;
+ }
   .banner img:nth-child(1){
     display: none;
   }

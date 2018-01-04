@@ -1,45 +1,4 @@
-.dao{
-    top: 0;
-}
 
-.hender_dh>li>ol{
-    position: absolute;
-    top: 100px;
-    background-color:  #FFF;
-    width: 10%;
-    display: none;
-    transform:translate(-10px,0);
-    transition:all 0.5s ease;
-} 
-.dao .hender_dh>li>a{
-    font-size: 16px;
-}
-.hender_dh>li>ol>li>a{
-    font-size: 18px;
-    color: #333;
-     display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-.hender_dh>li>ol>li{
-    height: 50px;
-      line-height: 50px;
-}
-.hender_dh>li>ol>li:hover{
-    background-color: #dc2223;
-}
-.hender_dh>li>ol>li:hover>a{
-    font-size: 18px;
-    color: #FFF;
-}
-.dh_hover:hover ol{
-    display: block;
-}
-.daodianh{
-   line-height: 100px;
-   color: #000;
-   font-size: 20px;
-}
 .banner{
     width: 100%;
     height: auto;
@@ -72,16 +31,24 @@
 }
 .nr h4{
     font-size: 20px;
+    font-weight: bold;
+    color: #333;
 }
 .nr p{
-    margin-top: 20px;
+    
     line-height: 26px;
     font-size: 14px;
+}
+.nr div{
+    height: 2px;
+    width: 82px;
+    margin: 10px auto;
+    background-color: #ff0000;
 }
 .crm{
     width: 1000px;
     height: auto;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 .crm>img:nth-child(1){
     width: 100%;
@@ -95,7 +62,7 @@
 .crm3{
     width: 1000px;
     height: auto;
-    margin: 0 auto; 
+    margin: 22px auto 0; 
 }
 .crm3 img{
    width: 100%;
@@ -105,15 +72,14 @@
 /*底部 结束*/
 @media screen and (min-width: 1401px) and (max-width: 1500px){
     .crm{
-        width: 1000px;
+        width: 900px;
+   
     }
     .crm3{
-        width: 1000px;
+        width: 900px;
     }
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px){
-   
-    
     .crm3{
         height:auto;
     }
@@ -131,6 +97,8 @@
     }
     .nr p{
         font-size: 14px;
+        width: 80%;
+        margin: 0 auto;
     }
 }
 @media screen and (min-width: 971px) and (max-width: 1199px){
@@ -144,11 +112,13 @@
     }
 }
 @media screen and (max-width: 749px){
- 
   .banner img:nth-child(1){
     display: none;
   }
   .banner img:nth-child(2){
     display: block;
+  }
+  .nr div{
+    margin: 10px 0 10px 20px;
   }
 }

@@ -1,39 +1,4 @@
 
-.hender_dh>li>ol{
-    position: absolute;
-    top: 100px;
-    background-color:  #FFF;
-    width: 10%;
-    display: none;
-    transform:translate(-10px,0);
-    transition:all 0.5s ease;
-} 
-.hender_dh>li>ol>li>a{
-    font-size: 18px;
-    color: #333;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-.hender_dh>li>ol>li{
-    height: 50px;
-      line-height: 50px;
-}
-.hender_dh>li>ol>li:hover{
-    background-color: #dc2223;
-}
-.hender_dh>li>ol>li:hover>a{
-    font-size: 18px;
-    color: #FFF;
-}
-.dh_hover:hover ol{
-    display: block;
-}
-.daodianh{
-   line-height: 100px;
-   color: #000;
-   font-size: 20px;
-}
 .banner{
     width: 100%;
     height: auto;
@@ -149,13 +114,13 @@
     text-align: center;
     line-height: 40px;
     display: inline-block;
-    background-color: #ca6928;
+    background-color: #ff0000;
     transition:all 0.5s ease;
 }
 .xwen div a:hover{
-    border: 1px solid #ca6928;
-    border-radius: 20px;
-    color: #ca6928;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    color: #ff0000;
     background-color: #fff;
 }
 /*内容 结束*/

@@ -1,36 +1,4 @@
 
-
-.hender_dh>li>ol{
-    position: absolute;
-    top: 100px;
-    background-color:  #FFF;
-    width: 10%;
-    display: none;
-    transform:translate(-10px,0);
-    transition:all 0.5s ease;
-} 
-.hender_dh>li>ol>li>a{
-    font-size: 18px;
-    color: #333;
- display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-.hender_dh>li>ol>li{
-    height: 50px;
-      line-height: 50px;
-}
-.hender_dh>li>ol>li:hover{
-    background-color: #dc2223;
-}
-.hender_dh>li>ol>li:hover>a{
-    font-size: 18px;
-    color: #FFF;
-}
-.dh_hover:hover ol{
-    display: block;
-}
-
 .banner{
     width: 100%;
     height: auto;
@@ -73,8 +41,8 @@
 .solution_fenglei a:hover{
     border-radius: 0px;
     color: #FFF;
-     border: 1px solid #cc0000;
-    background-color: #cc0000;
+     border: 1px solid #ff0000;
+    background-color: #ff0000;
     transition:all 0.5s ease; 
 }
 .solution{
@@ -87,6 +55,7 @@
 .solution h3{
     font-size: 20px;
     color: #333;
+    font-weight: bold;
 }
 .solution p{
     margin-top: 20px;
@@ -110,12 +79,13 @@
 .solution_cjwt{
     width: 1000px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 }
 .solution_cjwt h3{
     font-size: 20px;
     color: #333;
     margin-bottom:20px;
+    font-weight: bold;
 }
 .solution_cjwt p{
     font-size: 14px;
@@ -130,8 +100,8 @@
 .solution_fenglei .jaohumor{
    border-radius: 0px;
     color: #FFF;
-     border: 1px solid #cc0000;
-    background-color: #cc0000;
+     border: 1px solid #ff0000;
+    background-color: #ff0000;
 }
 .solution_fgk{
     width: 100%;
@@ -175,7 +145,7 @@
     color: #1aa6e4;
 }
 .solution_fgk_nr div:nth-child(2){
-    margin-left: 100px;
+    margin-left: 230px;
 }
 .solution_cpxg{
     width: 1000px;
@@ -186,6 +156,7 @@
     font-size:20px;
     margin-top: 60px;
     color: #333;
+    font-weight: bold;
 }
 .solution_cpxg p{
     width: 500px;
@@ -256,7 +227,11 @@
     transform:scale(1.2);
 }
 /*底部 开始*/
-
+@media screen and (min-width: 1401px) and (max-width: 1500px){
+.solution_fgk_nr div:nth-child(2){
+    margin-left: 230px;
+}
+}
 @media screen and (min-width: 1200px) and (max-width: 1400px){
 }
 @media screen and (min-width: 750px) and (max-width: 970px){
@@ -264,6 +239,18 @@
         display: inline-block;
         width: 12%;
         margin-top: 10px;
+    }
+    
+    .solution_fenglei{
+        width: 80%;
+    text-align: left;
+    margin: 0 auto;
+   }
+     .solution{  
+        width: 80%;
+    }
+    .solution>div{
+        width: 100%;
     }
     .solution{  
         width: 80%;

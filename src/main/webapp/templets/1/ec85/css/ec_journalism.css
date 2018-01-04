@@ -1,39 +1,4 @@
 
-.hender_dh>li>ol{
-    position: absolute;
-    top: 100px;
-    background-color:  #FFF;
-    width: 10%;
-    display: none;
-    transform:translate(-10px,0);
-    transition:all 0.5s ease;
-} 
-.hender_dh>li>ol>li>a{
-    font-size: 18px;
-    color: #333;
-     display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-.hender_dh>li>ol>li{
-    height: 50px;
-      line-height: 50px;
-}
-.hender_dh>li>ol>li:hover{
-    background-color: #dc2223;
-}
-.hender_dh>li>ol>li:hover>a{
-    font-size: 18px;
-    color: #FFF;
-}
-.dh_hover:hover ol{
-    display: block;
-}
-.daodianh{
-   line-height: 100px;
-   color: #000;
-   font-size: 20px;
-}
 .banner{
     width: 100%;
     height: auto; 
@@ -66,7 +31,7 @@
     margin-top: 40px;
 }
 .ljsh div:first-child{
-    width: 820px;
+    width: 1200px;
     margin: 0 auto;
     
 }
@@ -81,11 +46,11 @@
     background-color: #ae9973;
 }
 .ljsh .tabhover{
-   line-height: 30px;
-    font-size: 18px;
-    background-color: #cc0000;
+   
+    font-size: 14px;
+    background-color: #ff0000;
     color: #FFF;
-     border: 1px solid #cc0000;
+     border: 1px solid #ff0000;
      border-radius: 10px;
 }
 .taba{
@@ -98,7 +63,7 @@
 .tabtitle li{
     display: inline-block;
     background-color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     padding:4px 20px;
     color: #333;
     border: 1px solid #1aa6e4;
@@ -106,11 +71,11 @@
     transition: all 0.5s ease;
 }
 .tabtitle li:hover{
-    line-height: 30px;
-    font-size: 18px;
-    background-color: #cc0000;
+   
+    font-size: 14px;
+    background-color: #ff0000;
     color: #FFF;
-    border: 1px solid #cc0000;
+    border: 1px solid #ff0000;
      border-radius: 10px;
 }
 .ljsh .tabtitle a:nth-child(1){
@@ -154,7 +119,7 @@
 .tabcontent li p{
     margin-top: 10px;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 14px;
     width: 220px;
 }
 .ec_l_j .tabtitle li{
@@ -178,8 +143,8 @@
     margin-right: 10px;
 }
 .fenyefu a:hover{
-    border: 1px solid #cc0000;
-    color: #cc0000;
+    border: 1px solid #ff0000;
+    color: #ff0000;
 }
 .fenyefu span{
     font-size: 16px;
@@ -228,7 +193,18 @@
     }
 }
 @media screen and (max-width: 749px){
- 
+    .ljsh .ec_l_j:first-child{
+        width: 100%;
+        background-color: #fff;
+    }
+    
+ .ljsh .ec_l_j .tabtitle{
+    width: auto;
+ }
+ .ljsh .ec_l_j .tabtitle li{
+    line-height:20px;
+    margin-top: 10px;
+ }
   .banner img:nth-child(1){
     display: none;
   }

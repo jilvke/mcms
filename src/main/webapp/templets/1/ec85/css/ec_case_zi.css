@@ -1,39 +1,4 @@
 
-.hender_dh>li>ol{
-    position: absolute;
-    top: 100px;
-    background-color:  #FFF;
-    width: 10%;
-    display: none;
-    transform:translate(-10px,0);
-    transition:all 0.5s ease;
-} 
-.hender_dh>li>ol>li>a{
-    font-size: 18px;
-    color: #333;
- display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-.hender_dh>li>ol>li{
-    height: 50px;
-    line-height: 50px;
-}
-.hender_dh>li>ol>li:hover{
-    background-color: #dc2223;
-}
-.hender_dh>li>ol>li:hover>a{
-    font-size: 18px;
-    color: #FFF;
-}
-.dh_hover:hover ol{
-    display: block;
-}
-.daodianh{
-   line-height: 100px;
-   color: #000;
-   font-size: 20px;
-}
 .banner{
     width: 100%;
     height: auto;     
@@ -63,7 +28,6 @@
     width: 1000px;
     height: auto;
     margin:0 auto;
-    
 }
 .journalism h4{
     font-size: 20px;
@@ -72,7 +36,7 @@
 }
 .journalism .journalism_gsmz{
     font-size: 22px;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
 }
 .journalism p{
@@ -112,6 +76,44 @@
 }
 .case_bj:hover .case_jh{
     transform:translate(0,0);
+}
+.journalism .journalism_zi_bti p{
+   text-align: center;
+   font-size: 14px;
+   margin-top: 10px;
+   color: #333;
+}
+.journalism_zi_tiaozhuan{
+    width: 1000px;
+    margin: 0 auto;
+}
+.journalism_zi_tiaozhuan a{
+    font-size: 14px;
+    padding: 4px 20px;
+    display: inline-block;
+      line-height: 30px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 4px 20px;
+    cursor: pointer;
+    border: 1px solid #1aa6e4;
+    border-radius: 0px;
+    text-align: center;
+}
+.journalism_zi_tiaozhuan a:hover{
+   padding: 4px 20px;
+    line-height: 30px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    text-align: center;
+    background-color: #ff0000;
+    color: #fff;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+}
+.journalism .journalism_zi_bti{
+    border-bottom: 1px solid #666;
 }
 .case_jh{
     width: 260px;
@@ -162,11 +164,11 @@
     text-align: center;
     line-height: 40px;
     display: inline-block;
-    background-color: #ca6928;
+    background-color: #ff0000;
     transition:all 0.5s ease;
 }
 .xwen div a:hover{
-    border: 1px solid #ca6928;
+    border: 1px solid #ff0000;
     border-radius: 20px;
     color: #ca6928;
     background-color: #fff;

@@ -6,37 +6,6 @@
 *{
     font-family: 微软雅黑;
 }
-.hender_dh>li>ol{
-    position: absolute;
-    top: 100px;
-    z-index: 10;
-    background-color:  #FFF;
-    width: 10%;
-    display: none;
-    transform:translate(-10px,0);
-    transition:all 0.5s ease;
-} 
-.hender_dh>li>ol>li>a{
-    font-size: 18px;
-    color: #333;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-.hender_dh>li>ol>li{
-    height: 50px;
-    line-height: 50px;
-}
-.hender_dh>li>ol>li:hover{
-    background-color: #dc2223;
-}
-.hender_dh>li>ol>li:hover>a{
-    font-size: 18px;
-    color: #FFF;
-}
-.hender_dh .dh_hover:hover ol{
-    display: block;
-}
 .dianh{
     font-size: 18px;
     color: #000;
@@ -145,9 +114,10 @@
     font-size: 22px;
     text-align: center;
     padding-top: 20px;
+     font-weight: bold;
 }
 .fwr h3 span{
-    color: #cc0000;
+    color: #ff0000;
 }
 .fwr>div:nth-child(2)>h4{
     font-size: 12px;
@@ -159,7 +129,7 @@
     width: 82px;
     height: 2px;
     display: flex;
-    background-color:#cc0000;
+    background-color:#ff0000;
     margin: 10px auto;
 }
 .fwr>div:nth-child(4){
@@ -231,13 +201,13 @@
 }
 .fwr_img_1 h5{
     font-size: 20px;
-    color: #cc0000;
+    color: #ff0000;
     line-height: 50px;
 }
 .fwr_img_1_ckgd:hover{
     width: 99%;
-    background-color: #cc0000;
-    border: 2px solid #cc0000;
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
 }
 .fwr_img_1_ckgd:hover h5{
     color: #fff;
@@ -256,7 +226,7 @@
 }
 .affordable div div span a{
     font-size: 16px;
-    color: #CC0000;
+    color: #ff0000;
 }
 .affordable div:nth-child(1) div:nth-child(1){
     width: 200px;
@@ -267,7 +237,7 @@
 
 }
 .affordable div:nth-child(1) div:nth-child(2) h3{
-    font-size: 14px;
+    font-size: 12px;
     color: #333;
     letter-spacing:2px;
 }
@@ -275,17 +245,18 @@
     width: 70px;
     height: 2px;
     margin-top: 12px;
-    background-color: #cc0000;
+    background-color: #ff0000;
 }
 .affordable div:nth-child(1) div:nth-child(4){
     font-size: 14px;
     color: #333;
     margin-top: 14px;
     line-height: 26px;
+    width: 340px;
 }
 .affordable div:nth-child(1) div:nth-child(5){
     font-size: 18px;
-    color: #cc0000;
+    color: #ff0000;
     margin-top: 30px;
 }
 .affordable div:nth-child(1) div:nth-child(6){
@@ -322,16 +293,17 @@
     background-size: 100% auto;
 }
 .business>div:nth-child(2) div:nth-child(2){
-    font-size: 16px;
+    font-size: 12px;
+    color: #333;
 }
 .business>div:nth-child(2) div:nth-child(3){
     width: 82px;
     height: 2px;
     margin-top: 10px;
-    background-color: #cc0000;
+    background-color: #ff0000;
 }
 .business>div:nth-child(2) div:nth-child(4){
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 16px;
     color: #333;
     line-height: 30px;
@@ -339,10 +311,10 @@
 .business>div:nth-child(2) div:nth-child(5){
     font-size: 20px;
     margin-top: 20px;
-    color: #cc0000;
+    color: #ff0000;
 }
 .business>div:nth-child(2) div:nth-child(6){
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 14px;
     color: #333;
     line-height: 34px;
@@ -387,7 +359,7 @@
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    width:666px;
+    width:700px;
     height:auto;
     font-size:20px;
     color:#fff;
@@ -405,7 +377,7 @@
     border-radius: 20px;
 }
 .fgk div span{
-    margin-left:20%;
+    margin-left:230px;
 }
 .awo{   
     width: 1200px;
@@ -415,19 +387,20 @@
 .awo>div:nth-child(1) div:nth-child(1) h2{
     font-size: 22px;
     color: #333;
+     font-weight: bold;
 }
 .awo>div:nth-child(1) div:nth-child(1) span{
-    color: #cc0000;
+    color: #ff0000;
 }
 .awo>div:nth-child(1) div:nth-child(2){
-    font-size: 14px;
+    font-size: 12px;
     color: #333; 
 }
 .awo>div:nth-child(1) div:nth-child(3){
     width: 70px;
     height: 2px;
     margin-top: 10px;
-    background-color: #cc0000;
+    background-color: #ff0000;
 }
 .awo>div:nth-child(1) div:nth-child(4){
     font-size: 14px;
@@ -450,7 +423,7 @@
     border: 2px solid #1aa6e4;
 }
 .awo .xyejjfanfandlj a:hover{
-    color: #cc0000;
+    color: #ff0000;
 }
 .awo>div:nth-child(2) ul a:nth-child(1) li{
     margin-left: 6px;
@@ -506,8 +479,10 @@
 }
 .awo>div:nth-child(2) ul a:nth-child(1n) li:hover{
     border-radius: 0px;
+    /*transform:scale(0.9);*/
     background-color: #1aa6e4;
      box-shadow: 0px 1px 2px 2px #FFF;    
+     border: 2px solid #FFF;
 }
 .awo>div:nth-child(2) ul a:nth-child(1n) li:hover>p{
     color: #fff;
@@ -526,7 +501,7 @@
      box-shadow: 1px 1px 2px 2px #1aa6e4;  
 }
 .awo>div:nth-child(2) ul li:nth-child(1n):hover div h4{
-    color: #cc0000;
+    color: #ff0000;
     font-size: 18px;
     margin-left: 6%;
 }
@@ -550,15 +525,17 @@
     font-size:22px;
     color:#333;
     text-align:center;
+     font-weight: bold;
+
 }
 .case .xian{
     width:82px;
     height:2px;
-    background-color:#cc0000;
+    background-color:#ff0000;
     margin:10px auto 10px;
 }
 .case>div:nth-child(1) p{
-    font-size:14px;
+    font-size:12px;
     margin-top:5px;
     color:#333;
     text-align:center;
@@ -597,7 +574,7 @@
 .case>div:nth-child(3)>div:nth-child(1){
     width:600px;
     height:300px;
-    text-align:center;
+    
 }
 .case>div:nth-child(3)>div:nth-child(2){
     width: 600px;
@@ -617,7 +594,7 @@
 .case_wenan{
     width: 95%;
     font-size: 14px;
-    margin: 0 auto;
+   margin-left: 20px;
     line-height: 24px;
 }
 .case .ckgd{
@@ -625,21 +602,21 @@
     width: 100%;
 }
 .case .ckgd a{
-    background-color: #cc0000;
+    background-color: #ff0000;
     color: #fff;
     width: 110px;
-    height: 40px;
+    height: 32px;
     display:block;
-    line-height:  40px;
+    line-height:  32px;
     transition:all 0.5s ease;
     text-align: center;
     margin: 0 auto;
 }
 .case .ckgd:hover a{
     background-color: #FFF;
-    border:1px solid #cc0000;
+    border:1px solid #ff0000;
      border-radius: 10px;
-     color: #cc0000;
+     color: #ff0000;
 }
 /*案例 结束*/
 .Journalism{
@@ -658,16 +635,16 @@
 .Journalism_qb>div:nth-child(1) h2{
     font-size: 22px;
     color: #333;
-
+    font-weight: bold;
 }
 .Journalism_qb>div:nth-child(1) div{
     width: 72px;
     height: 2px;
-    background-color: #cc0000;
+    background-color: #ff0000;
     margin: 10px auto;
 }
 .Journalism_qb>div:nth-child(1) p{
-    font-size: 14px;
+    font-size: 12px;
     color: #333;
 }
 .Journalism_xiao{
@@ -698,11 +675,11 @@
     text-align: center;
 }
 .Journalism_xiao:hover h4{
-    color: #cc0000;
+    color: #ff0000;
    
 }
 .Journalism_xiao:hover p{
-    color: #cc0000;
+    color: #ff0000;
     
 }
 
@@ -808,7 +785,9 @@
 
 /*底部结束*/
 @media screen and (max-width: 749px){
-  
+  .awo>div:nth-child(1)>div:nth-child(4){
+    display: none;
+  }
 .fwr_img>div{
     width: 100%;
 }
@@ -910,12 +889,14 @@
     margin-left: 0;
   }
   .business>div:nth-child(2) div:nth-child(4){
-    line-height: 30px;
+    line-height: 22px;
     font-size: 16px;
+     margin-top: 2px;
   }
   .business>div:nth-child(2) div:nth-child(6){
     font-size: 16px;
-     line-height: 30px;
+     line-height: 22px;
+     margin-top: 2px;
   }
   .business>div:nth-child(2) div:nth-child(5){
     margin-top: 6px;
@@ -987,9 +968,9 @@
     margin: 10px auto;
   }
  .business>div:nth-child(1){
-    width: 70%;
+    width: 350px;
     height: 370px;
-    margin-left: 10%;
+    margin-left:20px;
     background: url(../images/shoye_6.png)no-repeat center;
     background-size: 100% auto;
  }
@@ -1003,13 +984,14 @@
  }
  .awo>div:nth-child(2){
     height: 100px;
+    margin-top: 10px;
  }
  .case_wenan{
-    font-size: 0px;
+    font-size: 14px;
     line-height: 20px;
     margin-left: 20px;
     text-align: left;
-    display: none;
+    
  }
  .case>div:nth-child(2) h3{
     font-size: 18px;
@@ -1023,6 +1005,7 @@
     height: 20px;
     line-height: 20px;
     font-size: 14px;
+    color: #fff;
  }
  .case .ckgd{
    margin-top: 4px;
@@ -1073,9 +1056,11 @@
  .affordable div:nth-child(1) div:nth-child(4){
     font-size: 18px;
     line-height: 20px;
+    margin: 0;
+    margin-top: 7px;
  }
  .affordable div:nth-child(1) div:nth-child(6){
-    width: 90%;
+    width: 100%;
     height: 200px;
     margin-top: 0;
  }
@@ -1090,7 +1075,8 @@
 }
 .awo{
     width: 100%;
-    height: 300px;
+    height: 180px;
+    margin: 20px auto 0;
 }
 .case>div:nth-child(1) p{
     font-size: 0px;
@@ -1115,9 +1101,9 @@
      margin-right:1px;
 }
 .awo>div:nth-child(2) ul{
-    width: 100%;
+    width: auto;
     height: auto;
-    margin: 0 auto;
+    margin-left: 20px;
     background-color: #fff;
 }
 .awo>div:nth-child(2) ul a:nth-child(1n) li>p{
@@ -1126,19 +1112,20 @@
 }
 .case{
     width: 100%;  
-    height: 600px;
+    height: auto;
 }
 .case .xian{
     margin: 10px 20px 10px;
     float: left;
     display: none;
+    
 }
 .case>div:nth-child(1){
       margin-top: 20px;
 }
 .case>div:nth-child(2){
     width: 100%;
-    height: 200px;
+    height: 60px;
 }
 .case>div:nth-child(2)>div:nth-child(1){
     width: 100%;
@@ -1146,6 +1133,7 @@
 }
 .case>div:nth-child(2)>div:nth-child(2){
     width: 90%;
+    display: none;
     height: auto;
 }
 .case>div:nth-child(3)>div:nth-child(1){
@@ -1157,6 +1145,7 @@
 }
 .case>div:nth-child(3)>div:nth-child(2){
     width: 100%;
+    display: none;
     height: 240px;
 }
 .case>div:nth-child(3)>div:nth-child(1) img{
@@ -1213,7 +1202,6 @@
     width: 100%;
     height: 200px;
 }
-
 .Journalism_xiao a>div:nth-child(2){
     margin-left: 0;
 }
@@ -1538,7 +1526,9 @@
 }
 }
 @media screen and (min-width: 750px) and (max-width: 969px){
- 
+ .fgk div span{
+    margin-left: 20%;
+ }
   .prev, .next{
     top: 34%;
   }
@@ -1893,6 +1883,13 @@
     .banner .swiper-wrapper div:nth-child(1){
     display: none;
 }
+.awo>div:nth-child(2) ul a:nth-child(1n) li:hover>div{
+    display: none;
+}
+.awo>div:nth-child(2) ul a:nth-child(1n) li:hover>p{
+    font-size: 20px;
+    color: #fff;
+}
 .banner .swiper-wrapper div:nth-child(2){
     display: none;
 }
@@ -1900,22 +1897,22 @@
     display: none;
 }
 .banner .swiper-wrapper div:nth-child(4){
-    display: none;
+    display: block;
 }
 .banner .swiper-wrapper div:nth-child(5){
-    display: none;
+    display: block;
 }
 .banner .swiper-wrapper div:nth-child(6){
-    display: none;
+    display: block;
 }
 .banner .swiper-wrapper div:nth-child(7){
-    display: block;
+    display: none;
 }
 .banner .swiper-wrapper div:nth-child(8){
-    display: block;
+    display: none;
 }
 .banner .swiper-wrapper div:nth-child(9){
-    display: block;
+    display: none;
 }
 .yitianyi{
 
@@ -1957,10 +1954,11 @@
     }
 .fwr{
     margin: 0 auto;
-    height:600px;
+    height:500px;
 }
 .fwr_img{
     width: 70%;
+    height: 340px;
     margin: 20px auto;
 }
 .fwr_img_1 div:nth-child(1) img{
@@ -2162,18 +2160,27 @@
     .affordable{
         width: 1000px;
     }
+    .fgk div{
+        width: 700px;
+    }
     .fwr_img{
         width: 1000px;
     }
     .business{
         width: 1000px;
     }
-
+    .awo>div:nth-child(2){
+        background: url(../images/shoye_8_2.jpg)no-repeat center;
+        background-size: 100% auto;
+    }
+.fgk div span{
+    margin-left: 230px;
+}
     .business>div:nth-child(1){
         width: 50%;
     }
     .business>div:nth-child(2){
-        margin-left: 20px;
+        margin-left: 100px;
     }
     .case>div:nth-child(3) h3{
         margin-top: 40px;

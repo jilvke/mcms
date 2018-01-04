@@ -1,46 +1,3 @@
-
-.hender_dh .mor .mor1{
-    color: #cc0000;
-}
-.hender_dh .mor:first-child a{
-    color: #333;
-}
-
-.hender_dh>li>ol{
-    position: absolute;
-    top: 100px;
-    background-color:  #fff;
-    width: 10%;
-    display: none;
-    transform:translate(-10px,0);
-    transition:all 0.5s ease;
-}
-.hender_dh>li>ol>li{
-    height: 50px;
-    line-height: 50px;
-}
-.hender_dh>li>ol>li:hover{
-    background-color: #dc2223;
-}
-.hender_dh>li>ol>li>a{
-    font-size: 18px;
-    color: #333;
-     display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-.hender_dh>li>ol>li:hover>a{
-    color: #FFF;
-    font-size: 18px;
-}
-.dh_hover:hover ol{
-    display: block;
-}
-.dianh{
-    font-size: 20px;
-    color: #000;
-    line-height:100px;
-}
 .slldegonengjijiing div a:hover div:nth-child(2){
     display: none;
 }
@@ -89,7 +46,7 @@
     width: 82px;
     height: 2px;
     margin-top: 10px;
-    background-color: #cc0000;
+    background-color: #ff0000;
 }
 .product_scrm_wenzi div h4{
     font-size: 20px;
@@ -104,7 +61,7 @@
 }
 .product_scrm_wenzi div p a{
     font-size: 14px;
-    color: #cc0000;
+    color: #ff0000;
 }
 .product_scrm_tuan{
     width: 50%;
@@ -116,7 +73,7 @@
     margin:0 auto;
 }
 #scrmtup1 img{
-    width: 100%;
+    width: 90%;
 }
 #scrmyjhj img{
    width: 100%;
@@ -131,13 +88,19 @@
     width: 100%;
 }
 #khgli{
-    margin: 20% auto;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 74%;
 }
 #wamglkf{
-    margin: 20% auto;
+     margin-top: 20%;
+    margin-left: 10%;
+    width: 74%;
 }
 #kaifkhu{
-    margin: 20% auto;
+      margin-top: 20%;
+    margin-left: 10%;
+    width: 74%;
 }
 .product_scrm_er_bj{
     width: 100%;
@@ -197,7 +160,7 @@
 .product_dierge .xian{
     width: 82px;
     height: 2px;
-    background-color: #cc0000;
+    background-color: #ff0000;
     margin:24px auto 12px;
 }
 .product a:nth-child(1n) div h3{
@@ -281,11 +244,11 @@
     color: #333;
     padding:5px 5px;
 
-    border: 1px solid #cc0000;
+    border: 1px solid #ff0000;
 }
 .slldegonengjijiing a:hover div p span{
     font-size: 14px;
-    color: #cc0000;
+    color: #ff0000;
 }
 .wyx{
     width: 50%;
@@ -303,6 +266,9 @@
     color: #333;
     margin-top: 40px;
     margin-bottom: 30px;
+}
+.product_zxkf_bt h3{
+    font-weight: bold;
 }
 .cpzxkf{
     width: 50%;
@@ -331,13 +297,14 @@
     height: 2px;
     margin: 0 auto;
     transform:translate(0,-10px);
-    background-color: #cc0000;
+    background-color: #ff0000;
 }
 .kuang{
     width: 100%;
     height: 60px;
     background:url(../images/hsbj.png);
     position: relative;
+    margin-top: 20px;
 }
 .kuang h5{
     position: absolute;
@@ -352,14 +319,16 @@
 .slldianhbt{
   position: relative;
     width: 1000px;
-    height: 210px;
+    height: 320px;
     margin: 0 auto;
-    background: url(../images/slljsho.jpg);
+   /* background: url(../images/slljsho.jpg);*/
     background-size: 100% auto;
-    color: #fff;
+    color: #333;
+   
 }
 .slldianhbt h3{
     font-size: 20px;
+    font-weight: bold;
    
 }
 .slldianhbt>div{
@@ -367,20 +336,32 @@
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
-   width:90%;
+   width:100%;
    font-size: 0;
+}
+.slldianhbt .xian{
+    width: 100%;
+}
+.slldianhbt .slldianhbt_nrgaib div:nth-child(1){
+    width: 36%;
+    height: 300px;
+    background:url(../images/slljshotupian.png)no-repeat;
+    background-size: 80% auto;
+}
+.slldianhbt .slldianhbt_nrgaib div:nth-child(2){
+    width: 64%;
 }
 .slldianhbt>div a{
     display: inline-block;
     padding: 4px 14px;
     font-size: 16px;
-    border: 1px solid #fff;
+    border: 1px solid #ff0000;
     margin-top: 20px;
-    color: #fff;
+    color: #333;
 }
 .slldianhbt>div a:hover{
-    background-color: #FFF;
-    color: #CC0000;
+    background-color: #ff0000;
+    color: #FFF;
 }
 .slldianhbt>div img{
     width: 100%;
@@ -397,12 +378,24 @@
     width: 100%;
      font-size: 14px;
      margin-top: 10px;
+     line-height: 24px;
       margin-bottom: 10px;
+}
+.slldianhbt div h4{
+    width: auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top:20px;
 }
 .sllgonengjij{
     font-size: 20px;
     width: 1000px;
     margin: 30px auto 0;
+}
+.sllgonengjij>h4{
+    font-weight: bold;
+    color: #333;
 }
 .phone{
     width: 1000px;
@@ -411,6 +404,8 @@
 .phone h3{
     font-size: 20px;
     margin-top: 50px;
+    font-weight: bold;
+    color: #333;
 }
 .phone p{
     font-size: 14px;
@@ -426,9 +421,10 @@
 .product_dierge h3{
     font-size: 20px;
     color: #333;
+    font-weight: bold;
 }
 /*.product_dierge h3 span{
-    color: #cc0000;
+    color: #ff0000;
 }*/
 .product_dierge p{
     font-size: 14px;
@@ -450,7 +446,7 @@
     line-height: 60px;
     padding:5px 5px;
     margin-right: 10px;
-    background-color: #cc0000;
+    background-color: #ff0000;
 }
 .time span:nth-child(3){
     color: #fff;
@@ -459,7 +455,7 @@
     line-height: 60px;
     padding:5px 5px;
     margin-right: 10px;
-    background-color: #cc0000;
+    background-color: #ff0000;
 }
 .time span:nth-child(4){
     color: #fff;
@@ -468,7 +464,7 @@
     line-height: 60px;
     padding:5px 5px;
     margin-right: 10px;
-    background-color: #cc0000;
+    background-color: #ff0000;
 }
 .product_dierge div{
     width: 100%;
@@ -479,6 +475,9 @@
     width: 100%;
     height: auto;
     margin-top: 40px;
+}
+.product_dierge div img:nth-child(2){
+    display: none;
 }
 .wosdj{
     margin-top: 50px;
@@ -525,19 +524,19 @@
 .function a div p{
     width: 90%;
     height: 60px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     margin: 4px auto;
     overflow: hidden;
 }
 .chuxiaotaoljds{
     padding: 4px 12px;
-    background-color: #CC0000;
+    background-color: #ff0000;
     font-size: 14px;
     color: #fff;
 }
 .function a div h6{
-    font-size: 16px;
+    font-size: 14px;
     color: #ff0000;
     margin-left: 10px;
     cursor: pointer;
@@ -550,6 +549,8 @@
 .product_wyx_er h3{
     font-size: 20px;
     margin-top: 40px;
+     font-weight: bold;
+     color: #333;
 }
 .product_wyx_er_img2 img{
     width: 50%;
@@ -563,7 +564,7 @@
 .product_wyx_er .xian{
     width: 82px;
     height: 2px;
-    background-color: #cc0000;
+    background-color: #ff0000;
     margin: 10px auto;
 }
 .product_wyx_er_img{
@@ -614,7 +615,7 @@
     text-align: 130px;
     display: inline-block;
     transition:all 0.7s ease;
-    background-color: #eb813a;
+    background-color: #ff0000;
     background-size: cover;
     margin-top: 10px;
     border-radius: 20px;
@@ -626,11 +627,13 @@
 }
 .ljsh h2{
     font-size: 20px;
+    font-weight: bold;
+    color: #333;
 }
 .ljsh .ec_l_j ul{
     width: 100%;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: #ddd;
 }
 .ljsh .ec_l_j ul li{
@@ -661,15 +664,18 @@
     font-size: 22px;
     line-height: 40px;
 }
+/*.tabcontent a>div div:nth-child(1) h4 span{
+    font-size: 30px;
+}*/
 .tabcontent a>div p{
     padding: 4px 20px;
     background-color: #fff;
-    border: 1px solid #cc0000;
+    border: 1px solid #ff0000;
     font-size: 16px;
-    color: #cc0000;
+    color: #ff0000;
 }
 .tabcontent a>div:hover p{
-    background-color: #cc0000;
+    background-color: #ff0000;
     color: #fff;
 }
 .tabcontent a img{
@@ -677,6 +683,8 @@
 }
 .chuxiaotaoc h2{
     font-size: 20px;
+    font-weight: bold;
+    color: #333;
 }
 .chuxiaotaoc{
     width: 1000px;
@@ -696,7 +704,7 @@
     font-size: 0px;
 }
 .chuxiaotaoc tr:nth-child(1) td:nth-child(1){
-    background-color: #cc0000;
+    background-color: #ff0000;
     color: #fff;
      border-bottom: 0px solid #ddd;
     border-right: 0px solid #1aa6e4;
@@ -717,16 +725,16 @@
 .chuxiaotaoc tr td{
  border-bottom: 1px solid #ddd;
     border-right: 1px solid #ddd;
-    font-size: 14px;
+    font-size: 16px;
     height: 40px;
 }
 .chuxiaotaoc tr td:nth-child(1){
     width: 40%;
-    font-size: 14px;
+    font-size: 16px;
   
 }
 .ljsh .ec_l_j ul .tabhover{
-    color: #CC0000;
+    color: #ff0000;
 }
 .product_srm ul li:hover{
     border-radius: 65px;
@@ -746,12 +754,13 @@
     font-size: 20px;
     margin-top: 30px;
     color: #333;
+     font-weight: bold;
 }
 .product_wyx_bt .xian{
     width: 82px;
     height: 2px;
     margin: 10px auto;
-    background-color: #cc0000;
+    background-color: #ff0000;
 }
 .product_wyx_bt p{
     font-size: 14px;
@@ -787,7 +796,7 @@
    text-align: center;
    line-height:50px;
    color: #fff;
-   margin-top: 30px;
+   margin-top: 0px;
    margin-left: 50px;
    border: 1px solid #fff;
    transition:all 0.5s ease;
@@ -798,7 +807,7 @@
    color: #1aa6e4;
 }
 .product_fgk_nr div:nth-child(2){
-    margin-left: 60px;
+    margin-left:0px;
     transform:translate(0,-16px);
 }
 .product_scrm_ner .wosdiyi{
@@ -931,32 +940,53 @@ div>.product_zxkf_yi{
 /*底部 开始*/
 @media screen and (min-width: 1401px) and (max-width: 1500px){
     .wyx{
-        width: 1000px;
+        width: 900px;
+    }
+    .product_fgk_nr div a{
+        margin-left: 230px;
     }
      .product_wyx_er_img{
-        width: 1000px;
+        width: 900px;
     }
+    .phone{
+        width: 900px;
+    }
+.slldianhbt{
+    width: 900px;
+}
+.slldianhbt{
+    width: 900px;
+}
+.function{
+     width: 900px;
+}
+.sllgonengjij{
+    width: 900px;
+}
+.ljsh{
+    width: 900px;
+}
     .product_wyx_er_img2 img{
         width: 100%;
     }
     .cpzxkf div:nth-child(3){
-        width: 1000px;
+        width: 900px;
         margin: 0 auto;
     }
     .cpzxkf{
-        width: 1000px;
+        width: 900px;
     }
     .product_dierge{
-        width: 1000px;
+        width: 900px;
     }
     .product_dierge div{
         margin: 0px auto 20px;
     }
     .product_scrm_er{
-        width: 1000px;
+        width: 900px;
     }
     .product_wyx_er_img2 img{
-        width: 1000px;
+        width: 900px;
     }
 
 }
@@ -987,9 +1017,7 @@ div>.product_zxkf_yi{
     .cpzxkf{
         width: 1000px;
     }
-    .dao{
-        height: 80px;
-    }
+
     .hender_dh>li{
         line-height: 80px;
         height: 80px;
@@ -1034,8 +1062,14 @@ div>.product_zxkf_yi{
     }
 }
 @media screen and (max-width: 749px){
-
- 
+.function a div div:nth-child(2){
+    display: none; 
+}
+    .function a div p{
+      line-height: 16px;
+      height: 46px;
+      font-size: 14px;
+    }
   .banner img:nth-child(1){
     display: none;
   }
@@ -1079,15 +1113,21 @@ div>.product_zxkf_yi{
     }
     .product_scrm_wenzi>div{
         margin-top: 0px;
+        width: auto;
+        margin-left: 20px;
+
     }
     #khgli{
         margin-top: 0px;
+        margin-left: 20px;
     }
     #wamglkf{
          margin-top: 0px;
+         margin-left: 20px;
     }
     #kaifkhu{
         margin-top: 0px;
+        margin-left: 20px;
     }
     .xian{
         margin-top: 4px;
@@ -1110,6 +1150,7 @@ div>.product_zxkf_yi{
     }
     .product_scrm_wenzi div h4{
         font-size: 16px;
+
     }
     .product_scrm_wenzi div p{
         font-size: 14px;
@@ -1125,6 +1166,21 @@ div>.product_zxkf_yi{
     .product_tb{
         width: 160px;
         height: 160px;
+    }
+    .function a>div{
+        height: 80px;
+    }
+    .function a div p{
+      line-height: 16px;
+      height: 46px;
+      font-size: 14px;
+    }
+    .ljsh .tabcontent{
+        width:1000px;
+    }
+
+    .ljsh .tabcontent a>div{
+        width: 19%;
     }
     .product a:nth-child(1n) div h3{
         margin-top: 10px;
@@ -1192,6 +1248,27 @@ div>.product_zxkf_yi{
     .product_tb{
         width: 150px;
         height: 150px;
+    }
+    .ljsh .tabcontent{
+        width: 100%;
+    }
+    .ljsh .tabcontent a>div{
+        width: 19%;
+
+    }
+    .function a>div{
+        height: 64px;
+    }
+    .function a>div>div:nth-child(2){
+        display: none;
+    }
+    .function a div p{
+      line-height: 16px;
+      height: 46px;
+      font-size: 14px;
+    }
+    .product_fgk_nr div:nth-child(2){
+        margin-left: 20%;
     }
     .product a:nth-child(1n) div h3{
         margin-top: 10px;
