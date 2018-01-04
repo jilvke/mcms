@@ -6,81 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80c43c68-11d5-4737-8c28-714dccf0bca6" name="Default" comment="首页">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/4.6.0-up-4.6.1.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/4.6.0/db-mcms-open-4.6.0.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/4.6.0/patch-4.6.0.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/header.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/shoyeimg_21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/shoyeimg_69.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/2wm.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/2wm.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/36dded29.png" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/36dded29.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/a802a41c.png" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/a802a41c.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner10_2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner10_2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner10_3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner10_3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner10_s.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner10_s.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner11_s.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner11_s.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner13.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner13_s.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner13_s.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner14.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner14_s.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner14_s.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner21.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner21.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner21_s.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner21_s.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner26.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner26.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner26_s.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner26_s.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner27.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/banner27.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/call_11.png" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/call_11.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/crmdz_02.png" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/crmdz_02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/dianh.png" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/dianh.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/jinrerweima.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/jinrerweima.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/kfzx_img1.png" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/kfzx_img1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/kfzx_img3.png" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/kfzx_img3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/shoye_7.png" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/shoye_7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/tanping.gif" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/tanping.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/wyx_img_1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/wyx_img_1.jpg" />
+    <list default="true" id="80c43c68-11d5-4737-8c28-714dccf0bca6" name="Default" comment="应用正式版开始">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_About_us.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_About_us.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_case.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_case.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_case_zi.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_case_zi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_customized.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_customized.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_download.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_download.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_help.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_help.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_help_zi.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_help_zi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_journalism.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_journalism.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_journalism_zi.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_journalism_zi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_product.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_product.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_product_hjzx.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_product_hjzx.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_shoye.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_shoye.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_solution.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_solution.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_solution_hlw.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_solution_hlw.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/reset.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_About_us.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_About_us.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case_zi.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case_zi.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_customized.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_customized.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_dibu.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_dibu.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_download.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_download.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_help.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_help.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_help_zi.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_help_zi.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_journalism.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_journalism.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_journalism_zi.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_journalism_zi.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_hjzx.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_hjzx.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_scrm.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_scrm.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_sll.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_sll.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_wyx.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_wyx.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_zxfw.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_zxfw.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_cm.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_cm.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_cy.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_cy.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_hlw.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_hlw.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_jy.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_jy.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_kx.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_kx.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_sho.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_sho.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_yl.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_yl.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_yy.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_yy.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/index.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/swiper/swiper.css" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/swiper/swiper.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,7 +20,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -416,7 +355,7 @@
       <workItem from="1514878524528" duration="2281000" />
       <workItem from="1514942223692" duration="5506000" />
       <workItem from="1515028334993" duration="828000" />
-      <workItem from="1515029366777" duration="796000" />
+      <workItem from="1515029366777" duration="1184000" />
     </task>
     <task id="LOCAL-00001" summary="首页信息变更">
       <created>1514969465440</created>
@@ -446,14 +385,22 @@
       <option name="project" value="LOCAL" />
       <updated>1514969690667</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="应用正式版开始">
+      <created>1515030253524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1515030253525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29771000" />
+    <option name="totallyTimeSpent" value="30159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -468,7 +415,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26228634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26228634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -536,7 +483,8 @@
     <MESSAGE value="去掉自动更新插件" />
     <MESSAGE value="方法提取" />
     <MESSAGE value="首页" />
-    <option name="LAST_COMMIT_MESSAGE" value="首页" />
+    <MESSAGE value="应用正式版开始" />
+    <option name="LAST_COMMIT_MESSAGE" value="应用正式版开始" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,13 +505,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/overlays/net.mingsoft.ms-mdiy-1.0.2-20170904.072748-39/WEB-INF/classes/com/mingsoft/mdiy/resources/search_type_zh_CN.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mingsoft/cms/action/GeneraterAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4761">
@@ -901,10 +842,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/css/ec_customized.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding />
         </state>
       </provider>
