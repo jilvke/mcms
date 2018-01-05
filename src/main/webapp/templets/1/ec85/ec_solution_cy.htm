@@ -20,7 +20,7 @@
         <div class="set fl">
             <nav class="nav-collapse">
                 <ul class="hender_dh main fl">
-                    <li ><a href="{ms:global.url/}/2/index.html" target="_blank">首页</a></li>
+                    <li><a href="{ms:global.url/}/2/index.html" target="_blank">首页</a></li>
                     <li class="dh_hover"><a href="{ms:global.url/}/3/index.html" target="_blank">产品功能</a>
                         <ol>
                             <li><a href="{ms:global.url/}/3/10/index.html" target="_blank">SCRM</a></li>
@@ -44,14 +44,21 @@
     </div>
 </div>
 <div class="banner">
-    <img src="{ms:globalskin.url/}images/banner21.jpg">
-    <img src="{ms:globalskin.url/}images/banner21_s.jpg">
+    {ms:arclist typeid=22 order=asc size=2 }
+    <img src="{ms:global.host/}[field.litpic/]">
+    {/ms:arclist}
 </div>
 <!-- 头部  结束 -->
 <div class="solution_fenglei">
-    {ms:channel type=son typeid=54 order=asc}
-    <a href="[field.typelink/]">[field.typetitle/]</a>
-    {/ms:channel}
+    <a href="{ms:global.url/}/5/54/61/index.html">金融行业</a>
+    <a class="jaohumor" href="{ms:global.url/}/5/54/60/index.html">地产行业</a>
+    <a href="{ms:global.url/}/5/54/59/index.html">医疗行业</a>
+    <a href="{ms:global.url/}/5/54/58/index.html">制造行业</a>
+    <a href="{ms:global.url/}/5/54/62/index.html">教育行业</a>
+    <a href="{ms:global.url/}/5/54/57/index.html">传媒行业</a>
+    <a href="{ms:global.url/}/5/54/56/index.html">旅游行业</a>
+    <a href="{ms:global.url/}/5/54/55/index.html">快消行业</a>
+    <a href="{ms:global.url/}/5/54/63/index.html">互联网行业</a>
 </div>
 <div class="solution clearfix">
     <div class="fl">
@@ -127,7 +134,8 @@
     </div>
 </div>
 
-<div class="hddb fr"><a href="{ms:global.url/}/5/54/60/index.html"><img src="{ms:globalskin.url/}images/hddb.png"></a></div>
+<div class="hddb fr"><a href="{ms:global.url/}/5/54/60/index.html"><img src="{ms:globalskin.url/}images/hddb.png"></a>
+</div>
 <!-- 底部 开始 -->
 {ms:include filename=ec_dibu.htm/}
 <!-- 底部 结束 -->

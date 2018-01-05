@@ -21,9 +21,9 @@
         </div>
         <div class="set fl">
             <nav class="nav-collapse">
-                <ul class="hender_dh main fl">
-                    <li ><a href="{ms:global.url/}/2/index.html" target="_blank">首页</a></li>
-                    <li class="dh_hover"><a href="{ms:global.url/}/3/index.html"  target="_blank">产品功能</a>
+                <ul class="hender_dh main">
+                    <li><a href="{ms:global.url/}/2/index.html" target="_blank">首页</a></li>
+                    <li class="dh_hover"><a href="{ms:global.url/}/3/index.html" target="_blank">产品功能</a>
                         <ol>
                             <li><a href="{ms:global.url/}/3/10/index.html" target="_blank">SCRM</a></li>
                             <li><a href="{ms:global.url/}/3/11/index.html" target="_blank">呼叫中心</a></li>
@@ -54,7 +54,7 @@
 <div class="ljsh">
     <div class="ec_l_j">
         <ul class="tabtitle">
-            <li class="tabhover " id="allCase">全部案例</li>
+            <li class="tabhover ">全部案例</li>
             {ms:channel type=son typeid=26 order=asc}
             <a href="[field.typelink/]">
                 <li class="taba">[field.typetitle/]</li>
@@ -62,7 +62,7 @@
             {/ms:channel}
         </ul>
     </div>
-    <div class="tabcontent" >
+    <div class="tabcontent">
         {ms:arclist ispaging=true order=desc size=8 }
         <a href="[field.link/]">
             <div class="clearfix">
@@ -86,7 +86,7 @@
     </div>
 
 </div>
-<<div class="fenyefu">
+<div class="fenyefu">
     <a href="{ms:page.index/}">首页</a>
     <a href="{ms:page.pre/}">上一页</a>
     <a href="{ms:page.next/}">下一页</a>

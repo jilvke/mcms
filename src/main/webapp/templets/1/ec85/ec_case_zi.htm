@@ -19,8 +19,8 @@
         <div class="set fl">
             <nav class="nav-collapse">
                 <ul class="hender_dh main fl">
-                    <li ><a href="{ms:global.url/}/2/index.html" target="_blank">首页</a></li>
-                    <li class="dh_hover"><a href="{ms:global.url/}/3/index.html"  target="_blank">产品功能</a>
+                    <li><a href="{ms:global.url/}/2/index.html" target="_blank">首页</a></li>
+                    <li class="dh_hover"><a href="{ms:global.url/}/3/index.html" target="_blank">产品功能</a>
                         <ol>
                             <li><a href="{ms:global.url/}/3/10/index.html" target="_blank">SCRM</a></li>
                             <li><a href="{ms:global.url/}/3/11/index.html" target="_blank">呼叫中心</a></li>
@@ -43,22 +43,18 @@
     </div>
 </div>
 <div class="banner">
-    <img src="{ms:globalskin.url/}images/banner14.jpg">
-    <img src="{ms:globalskin.url/}images/banner14_s.jpg">
+    {ms:arclist typeid=23 order=asc size=2 }
+    <img src="{ms:global.host/}[field.litpic/]">
+    {/ms:arclist}
 </div>
 <!-- 头部  结束 -->
 <!-- 新闻 开始 -->
 <div class="journalism_zi_tiaozhuan">
-
-    <a href="{ms:globalskin.url/}ec_case.html">互联网行业</a>
-    <a href="{ms:globalskin.url/}ec_case.html">金融行业</a>
-    <a href="{ms:globalskin.url/}ec_case.html">制造行业</a>
-    <a href="{ms:globalskin.url/}ec_case.html">教育行业</a>
-    <a href="{ms:globalskin.url/}ec_case.html">医疗行业</a>
-    <a href="{ms:globalskin.url/}ec_case.html">旅游行业</a>
-    <a href="{ms:globalskin.url/}ec_case.html">地产行业</a>
-    <a href="{ms:globalskin.url/}ec_case.html">快消行业</a>
-    <a href="{ms:globalskin.url/}ec_case.html">传媒行业</a>
+    {ms:channel type=son typeid=26 order=asc}
+    <a href="[field.typelink/]">
+        <li class="taba">[field.typetitle/]</li>
+    </a>
+    {/ms:channel}
 </div>
 <div class="journalism">
     <div class="journalism_zi_bti">
@@ -78,7 +74,8 @@
 </div>
 <!-- 新闻 结束 -->
 
-<div class="hddb fr"><a href="{ms:globalskin.url/}ec_case_zi.html"><img src="{ms:globalskin.url/}images/hddb.png"></a></div>
+<div class="hddb fr"><a href="{ms:globalskin.url/}ec_case_zi.html"><img src="{ms:globalskin.url/}images/hddb.png"></a>
+</div>
 <!-- 底部 开始 -->
 {ms:include filename=ec_dibu.htm/}
 <!-- 底部 结束 -->

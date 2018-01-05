@@ -20,8 +20,8 @@
         <div class="set fl">
             <nav class="nav-collapse">
                 <ul class="hender_dh main fl">
-                    <li ><a href="{ms:global.url/}/2/index.html" target="_blank">首页</a></li>
-                    <li class="dh_hover"><a href="{ms:global.url/}/3/index.html"  target="_blank">产品功能</a>
+                    <li><a href="{ms:global.url/}/2/index.html" target="_blank">首页</a></li>
+                    <li class="dh_hover"><a href="{ms:global.url/}/3/index.html" target="_blank">产品功能</a>
                         <ol>
                             <li><a href="{ms:global.url/}/3/10/index.html" target="_blank">SCRM</a></li>
                             <li><a href="{ms:global.url/}/3/11/index.html" target="_blank">呼叫中心</a></li>
@@ -52,7 +52,7 @@
 <!-- 新闻 开始 -->
 <div class="ljsh">
     <div class="ec_l_j">
-        <ul class="tabtitle" style="width: 1000px">
+        <ul class="tabtitle">
             <li class="tabhover " id="allNews">全部新闻</li>
             {ms:channel type=son typeid=44 order=asc}
             <a href="[field.typelink/]">
@@ -64,7 +64,7 @@
     <!-- 1  -->
     <div class="tabcontent">
         <ul class="clearfix">
-            {ms:arclist  ispaging=true order=desc size=8 }
+            {ms:arclist ispaging=true order=desc size=8 }
             <li class="fl">
                 <a href="[field.link/]" target="_blank">
                     <h3>[field.title/]</h3>

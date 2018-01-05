@@ -20,8 +20,8 @@
         <div class="set fl">
             <nav class="nav-collapse">
                 <ul class="hender_dh main fl">
-                    <li ><a href="{ms:global.url/}/2/index.html" target="_blank">首页</a></li>
-                    <li class="dh_hover"><a href="{ms:global.url/}/3/index.html"  target="_blank">产品功能</a>
+                    <li><a href="{ms:global.url/}/2/index.html" target="_blank">首页</a></li>
+                    <li class="dh_hover"><a href="{ms:global.url/}/3/index.html" target="_blank">产品功能</a>
                         <ol>
                             <li><a href="{ms:global.url/}/3/10/index.html" target="_blank">SCRM</a></li>
                             <li><a href="{ms:global.url/}/3/11/index.html" target="_blank">呼叫中心</a></li>
@@ -44,8 +44,9 @@
     </div>
 </div>
 <div class="banner">
-    <img src="{ms:globalskin.url/}images/banner8.jpg">
-    <img src="{ms:globalskin.url/}images/banner8_s.jpg">
+    {ms:arclist typeid=25 order=asc size=2 }
+    <img src="{ms:global.host/}[field.litpic/]">
+    {/ms:arclist}
 </div>
 <!-- 头部  结束 -->
 <div class="journalism">
