@@ -54,17 +54,17 @@
     <p>
         {ms:field.content/}
     </p>
-    <p class="shij">{ms:field.date fmt=yyyy/}年{ms:field.date fmt=MM/}月{ms:field.date fmt=dd/}日</p>
+    <p class="shij">{ms:field.date fmt=yyyy年MM月dd日/}</p>
 </div>
 <div class="xwen">
     <H4>热点新闻</H4>
     {ms:arclist typeid=44 size=3 order=desc }
     <a href="[field.link/]"><P>[field.title/]</P></a>
     {/ms:arclist}
-    <div class=""><a href="{ms:globalskin.url/}ec_journalism.html">查看更多</a></div>
+    <div class=""><a href="{ms:field.typelink/}">查看更多</a></div>
 </div>
 
-<div class="hddb fr"><a href="{ms:globalskin.url/}ec_journalism_zi.html"><img src="{ms:globalskin.url/}images/hddb.png"></a>
+<div class="hddb fr"><a href="{ms:field.link/}"><img src="{ms:globalskin.url/}images/hddb.png"></a>
 </div>
 <!-- 底部 开始 -->
 {ms:include filename=ec_dibu.htm/}

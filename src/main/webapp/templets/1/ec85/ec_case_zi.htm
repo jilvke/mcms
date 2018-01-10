@@ -52,14 +52,14 @@
 <div class="journalism_zi_tiaozhuan">
     {ms:channel type=son typeid=26 order=asc}
     <a href="[field.typelink/]">
-        <li class="taba">[field.typetitle/]</li>
+        [field.typetitle/]
     </a>
     {/ms:channel}
 </div>
 <div class="journalism">
     <div class="journalism_zi_bti">
         <h3 class="journalism_gsmz">{ms:field.title/}</h3>
-        <p>发布时间：{ms:field.date fmt=yyyy/}年{ms:field.date fmt=MM/}月{ms:field.date fmt=dd/}日</p>
+        <p>发布时间：{ms:field.date fmt=yyyy年MM月dd日/}</p>
     </div>
     <p>
         {ms:field.content/}
@@ -70,11 +70,10 @@
     <H4>同行案例</H4>
     <a href="{ms:field.prelink/}"><P>{ms:field.pretitle/}</P></a>
     <a href="{ms:field.nextlink/}"><P>{ms:field.nexttitle/}</P></a>
-    <div class="FR"><a>查看更多</a></div>
+    <div class="FR"><a href="{ms:field.typelink/}">查看更多</a></div>
 </div>
 <!-- 新闻 结束 -->
-
-<div class="hddb fr"><a href="{ms:globalskin.url/}ec_case_zi.html"><img src="{ms:globalskin.url/}images/hddb.png"></a>
+<div class="hddb fr"><a href="{ms:field.link/}"><img src="{ms:globalskin.url/}images/hddb.png"></a>
 </div>
 <!-- 底部 开始 -->
 {ms:include filename=ec_dibu.htm/}

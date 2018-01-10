@@ -54,7 +54,7 @@ text-align: center;
 .ec_help_zi h3{
     font-size: 20px;
     color: #333;
-    widows:100%;
+    width:100%;
     border-bottom: 1px solid #999; 
     margin-top: 40px;
 }

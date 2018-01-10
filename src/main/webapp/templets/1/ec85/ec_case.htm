@@ -52,17 +52,19 @@
 </div>
 <!-- 头部  结束 -->
 <div class="ljsh">
-    <div class="ec_l_j">
+    <div class="ec_l_j" id="Casetaba">
         <ul class="tabtitle">
-            <li class="tabhover ">全部案例</li>
-            {ms:channel type=son typeid=26 order=asc}
+            <li class="taba allCase">全部案例</li>
+            {ms:channel type=son  typeid=26 order=asc}
+
             <a href="[field.typelink/]">
-                <li class="taba">[field.typetitle/]</li>
+                <li class="taba" id="[field.typeid/]"><input type="hidden" id="fatherId" value="[field.typeid/]"/>[field.typetitle/]</li>
             </a>
             {/ms:channel}
         </ul>
     </div>
     <div class="tabcontent">
+        <input type="hidden" id="sonId" value="{ms:field.typeid/}">
         {ms:arclist ispaging=true order=desc size=8 }
         <a href="[field.link/]">
             <div class="clearfix">
@@ -94,7 +96,8 @@
     <span>第 {ms:page.cur/} 页   共: {ms:page.total/} 页</span>
 
 </div>
-<div class="hddb fr"><a href="{ms:globalskin.url/}ec_case.html"><img src="{ms:globalskin.url/}images/hddb.png"></a>
+<div class="hddb fr">
+ <a href="{ms:global.url/}/6/26/index.html"><img src="{ms:globalskin.url/}images/hddb.png"></a>
 </div>
 <!-- 底部 开始 -->
 {ms:include filename=ec_dibu.htm/}
@@ -113,11 +116,26 @@
 </html>
 <script src="{ms:globalskin.url/}js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript">
-    $(document).ready(function () {
-        $('.tabtitle li').click(function () {
-            var index = $(this).index();
-            $(this).attr('class', "tabhover").siblings('li').attr('class', 'taba');
-            $('.tabcontent').eq(index).show().siblings('.tabcontent').hide();
-        });
-    })
+    $(window).load(function() {
+    if ($("#sonId").val() == 26 ){
+        $('.allCase').removeClass("taba").addClass("tabhover");
+    }else{
+    }
+
+    });
+    $(window).load(function() {
+        var list=document.getElementById("Casetaba").getElementsByTagName("input");
+        for(var i=0;i<list.length && list[i];i++)
+        {
+            if(list[i].value == $("#sonId").val())
+            {
+                document.getElementById(list[i].value).setAttribute('class', "tabhover");
+            }
+        }
+
+    });
+
+    $(".allCase").live("click" , function(){
+        location.href='{ms:global.url/}/6/26/index.html'
+    });
 </script>

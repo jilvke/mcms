@@ -51,12 +51,12 @@
 <!-- 头部  结束 -->
 <!-- 新闻 开始 -->
 <div class="ljsh">
-    <div class="ec_l_j">
+    <div class="ec_l_j" id="Journalismtaba">
         <ul class="tabtitle">
-            <li class="tabhover " id="allNews">全部新闻</li>
+            <li class="taba allNews" id="allNews">全部新闻</li>
             {ms:channel type=son typeid=44 order=asc}
             <a href="[field.typelink/]">
-                <li class="taba">[field.typetitle/]</li>
+                <li class="taba" id="[field.typeid/]"><input type="hidden" id="fatherId" value="[field.typeid/]"/>[field.typetitle/]</li>
             </a>
             {/ms:channel}
         </ul>
@@ -64,6 +64,7 @@
     <!-- 1  -->
     <div class="tabcontent">
         <ul class="clearfix">
+            <input type="hidden" id="sonId" value="{ms:field.typeid/}">
             {ms:arclist ispaging=true order=desc size=8 }
             <li class="fl">
                 <a href="[field.link/]" target="_blank">
@@ -71,7 +72,7 @@
                     <div>
                         <img src="{ms:global.host/}[field.litpic/]">
                     </div>
-                    <h5>[field.date fmt=yyyy/]年[field.date fmt=MM/]月[field.date fmt=dd/]日</h5>
+                    <h5>[field.date fmt=yyyy年MM月dd日/]</h5>
                     <p>[field.descrip/]</p>
                 </a>
             </li>
@@ -89,8 +90,7 @@
 
 </div>
 
-<div class="hddb fr"><a href="{ms:globalskin.url/}ec_journalism.html"><img
-        src="{ms:globalskin.url/}images/hddb.png"></a></div>
+<div class="hddb fr"><a href="{ms:global.url/}/8/44/index.html"><img src="{ms:globalskin.url/}images/hddb.png"></a></div>
 <!-- 底部 开始 -->
 {ms:include filename=ec_dibu.htm/}
 <!-- 底部 结束 -->
@@ -106,13 +106,34 @@
 </script>
 <script src="{ms:globalskin.url/}js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript">
-    $(document).ready(function () {
+    $(window).load(function() {
+        if ($("#sonId").val() == 44 ){
+            $('.allNews').removeClass("taba").addClass("tabhover");
+        }else{
+        }
+
+    });
+    $(window).load(function() {
+        var list=document.getElementById("Journalismtaba").getElementsByTagName("input");
+        for(var i=0;i<list.length && list[i];i++)
+        {
+            if(list[i].value == $("#sonId").val())
+            {
+                document.getElementById(list[i].value).setAttribute('class', "tabhover");
+            }
+        }
+
+    });
+/*    $(document).ready(function () {
         $('.tabtitle li').click(function () {
             var index = $(this).index();
             $(this).attr('class', "tabhover").siblings('li').attr('class', 'taba');
             $('.tabcontent').eq(index).show().siblings('.tabcontent').hide();
         });
-    })
+    })*/
+    $(".allNews").live("click" , function(){
+        location.href='{ms:global.url/}/8/44/index.html'
+    });
 </script>
 </body>
 </html>

@@ -77,9 +77,9 @@
 </div>
 <div class="banner">
     <div class="swiper-container">
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper" id="indexID">
             {ms:arclist typeid=15 order=asc }
-            <div class="swiper-slide"><img src="{ms:global.host/}[field.litpic/]"></div>
+            <div class="swiper-slide"><img src="{ms:global.host/}[field.litpic/]"/></div>
             {/ms:arclist}
         </div>
         <!-- 添加分页器 -->
@@ -344,7 +344,6 @@
             <img src="{ms:global.host/}[field.litpic/]">
         </div>
         {/ms:arclist}
-
     </div>
     <div class="clearfix">
         {ms:arclist typeid=53 order=asc size=1}
@@ -389,8 +388,8 @@
             {ms:arclist typeid=45 order=asc size=1}
             <div class="Journalism_shix_shox">
                 <a href="[field.link/]" target="_blank">
-                    <div class="Journalism_img">
-                        <input type="hidden" value="{ms:global.host/}[field.litpic/]">
+                    <div class="Journalism_img" style="background: url('{ms:global.host/}[field.litpic/]')">
+                       <!-- <input type="hidden" value="{ms:global.host/}[field.litpic/]">-->
                         <div class="Journalism_img_1">
                             <h4>[field.date fmt=yy/]</h4>
                             <p>[field.date fmt=MM/]月[field.date fmt=dd/]日</p>
@@ -425,6 +424,8 @@
     })(window, document);
 </script>
 <script src="{ms:globalskin.url/}js/jquery-1.8.3.min.js"></script>
+<script src="{ms:globalskin.url/}js/poposlides.js"></script>
+<script>$(".slides").poposlides();</script>
 <script type="text/javascript">
     $(document).ready(function () {
         $('.tabtitle li').hover(function () {
@@ -449,14 +450,21 @@
     })
 </script>
 <script type="text/javascript">
+    $(window).load(function() {
+        var list=document.getElementById("indexID").getElementsByTagName("img");
+        for(var i=0;i<list.length && list[i];i++)
+        {
+            if((/.*[\u4e00-\u9fa5]+.*$/.test(decodeURI(list[i].src))))
+            {
+               list[i].src = "" ;
+            }
+        }
+    });
+</script>
+<script type="text/javascript">
     $(document).ready(function () {
     ...
     })
 </script>
 </body>
-<script src="{ms:globalskin.url/}js/jquery-1.8.3.min.js"></script>
-<script src="{ms:globalskin.url/}js/poposlides.js"></script>
-<script>
-    $(".slides").poposlides();
-</script>
 </html>
