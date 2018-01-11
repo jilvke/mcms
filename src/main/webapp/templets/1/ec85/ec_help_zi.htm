@@ -48,9 +48,11 @@
     <img src="{ms:global.host/}[field.litpic/]">
     {/ms:arclist}
 </div>
-<form class="news_fm">
-    <apan><input type="text" class="sou"></apan>
-    <apan><input type="button" value="提交" class="tijiao"></apan>
+<form id="searchDataForm" action="{ms:global.host/}/cms/1/search.do?sort='b.BASIC_UPDATETIME-desc' " method="post" class="news_fm">
+    <input type="hidden" name="categoryId" value="36" label="栏目编号"/> <!--必须存在-->
+    <!--表单的name值不能改变-->
+    <input type="text" name="basic_title" class="sou" />
+    <input type="submit" value="搜索" class="tijiao">
 </form>
 <div class="ec_help_zi clearfix">
     <div class="fr">
