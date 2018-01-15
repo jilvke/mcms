@@ -291,6 +291,7 @@ public class ChannelParser extends IParser {
 	 * @return 用内容替换标签后的HTML代码
 	 */
 	private String articleTypeList(String htmlCotent, List<ColumnEntity> articleTypeList, String webUrl) {
+		webUrl = "E:/usr/local/nginx/html/ec85/1";
 		String tabHtml = tabHtml(htmlCotent);
 		String htmlList = "";
 		if (articleTypeList != null && articleTypeList.size() != 0) {

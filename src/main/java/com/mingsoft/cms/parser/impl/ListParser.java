@@ -130,6 +130,7 @@ public class ListParser extends com.mingsoft.mdiy.parser.ListParser {
 	 */
 	@Override
 	protected String list(String tabHtmlContent, String htmlContent, List articleList, String path) {
+		path = "E:/usr/local/nginx/html/ec85/1";
 		String htmlList = "";
 		String tabHtml = "";
 		tabHtml = tabHtml(tabHtmlContent);

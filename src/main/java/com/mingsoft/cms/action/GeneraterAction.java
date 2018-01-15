@@ -243,7 +243,7 @@ public class GeneraterAction extends BaseAction {
 		AppEntity app = BasicUtil.getApp();
 		String mobileStyle = app.getAppMobileStyle(); // 手机端模版
 	//	String url = app.getAppHostUrl() + File.separator + IParserRegexConstant.HTML_SAVE_PATH + File.separator + app.getAppId();
-		String url = app.getAppHostUrl()  + savePath + File.separator + app.getAppId();
+		String url = savePath + File.separator + app.getAppId();
 		// 站点生成后保存的html地址
 	//	String generatePath = getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + app.getAppId() + File.separator;
 		String generatePath =savePath + File.separator + app.getAppId() + File.separator;
@@ -472,7 +472,7 @@ public class GeneraterAction extends BaseAction {
 			columns = columnBiz.queryColumnListByWebsiteId(app.getAppId()); // 读取所有栏目
 		}
 		//String url = app.getAppHostUrl() + File.separator + IParserRegexConstant.HTML_SAVE_PATH + File.separator + app.getAppId() + File.separator; // 文章地址前缀
-		String url = app.getAppHostUrl() + File.separator + savePath+ File.separator + app.getAppId() + File.separator; // 文章地址前缀
+		String url =  savePath+ File.separator + app.getAppId() + File.separator; // 文章地址前缀
 		// 如果没有选择栏目，生成规则
 		// 1先读取所有的栏目,从最低级的分类取
 		for (ColumnEntity tempColumn : columns) {// 循环分类
@@ -695,8 +695,9 @@ public class GeneraterAction extends BaseAction {
 	@ResponseBody
 	public void generateArticleByArticleId(HttpServletRequest request, HttpServletResponse response, @PathVariable int articleId) {
 		AppEntity app = this.getApp(request);
-		String generatePath = getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + app.getAppId() + File.separator;// 站点生成后保存的html地址
-		FileUtil.createFolder(generatePath);
+//		String generatePath = getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + app.getAppId() + File.separator;// 站点生成后保存的html地址
+		String generatePath = savePath + File.separator + app.getAppId() + File.separator;// 站点生成后保存的html地址
+			FileUtil.createFolder(generatePath);
 		String tmpPath = getRealPath(request, IParserRegexConstant.REGEX_SAVE_TEMPLATE) + File.separator + app.getAppId() + File.separator + app.getAppStyle(); // 网站风格物理路径
 		String url = app.getAppHostUrl() + File.separator + IParserRegexConstant.HTML_SAVE_PATH + File.separator + app.getAppId() + File.separator; // 文章地址前缀
 		ArticleEntity article = (ArticleEntity) articleBiz.getBasic(articleId);
