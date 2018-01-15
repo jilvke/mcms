@@ -138,6 +138,9 @@ public class GeneraterAction extends BaseAction {
 	@Value("${managerPath}")
 	private String managerPath;
 
+	@Value("${savePath}")
+	private String savePath;
+
 	/**
 	 * 一键更新所有
 	 * 
@@ -191,12 +194,17 @@ public class GeneraterAction extends BaseAction {
 		String tmpMobileFilePath = webSiteTmpPath + File.separator + IParserRegexConstant.MOBILE + File.separator + tmpFileName;// 手机端
 
 		// 生成地址
-		String generatePath = getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + websiteId + File.separator + generateFileName;
-		String generateMobilePath = getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + websiteId + File.separator + IParserRegexConstant.MOBILE + File.separator + generateFileName;
-		//生成保存htm页面的文件夹
-		FileUtil.createFolder(getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + websiteId);
-		FileUtil.createFolder(getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + websiteId + File.separator + IParserRegexConstant.MOBILE); // 手机端
-		// 获取文件所在路径 首先判断用户输入的模版文件是否存在
+		//修改默认的生成地址,换到指定路径
+	//	String generatePath = getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + websiteId + File.separator + generateFileName;
+	//	String generateMobilePath = getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + websiteId + File.separator + IParserRegexConstant.MOBILE + File.separator + generateFileName;
+		String generatePath = savePath + File.separator + websiteId + File.separator + generateFileName;
+		String generateMobilePath = savePath+ File.separator + websiteId + File.separator + IParserRegexConstant.MOBILE + File.separator + generateFileName;
+				//生成保存htm页面的文件夹
+	//	FileUtil.createFolder(getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + websiteId);
+	//	FileUtil.createFolder(getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + websiteId + File.separator + IParserRegexConstant.MOBILE); // 手机端
+		FileUtil.createFolder(savePath + File.separator + websiteId);
+		FileUtil.createFolder(savePath + File.separator + websiteId + File.separator + IParserRegexConstant.MOBILE);
+			// 获取文件所在路径 首先判断用户输入的模版文件是否存在
 		File file = new File(tmpFilePath);
 
 		// 判断文件是否存在，若不存在弹出返回信息
@@ -215,7 +223,7 @@ public class GeneraterAction extends BaseAction {
 				// 解析HTML上的标签
 				FileUtil.writeFile(htmlContent, generatePath, FileUtil.URF8);
 				FileUtil.writeFile(mobileHtmlContent, generateMobilePath, FileUtil.URF8);
-				this.outJson(response, true);
+ 				this.outJson(response, true);
 			} 
 		}
 	}
@@ -234,9 +242,11 @@ public class GeneraterAction extends BaseAction {
 		// 获取站点id
 		AppEntity app = BasicUtil.getApp();
 		String mobileStyle = app.getAppMobileStyle(); // 手机端模版
-		String url = app.getAppHostUrl() + File.separator + IParserRegexConstant.HTML_SAVE_PATH + File.separator + app.getAppId();
+	//	String url = app.getAppHostUrl() + File.separator + IParserRegexConstant.HTML_SAVE_PATH + File.separator + app.getAppId();
+		String url = app.getAppHostUrl()  + savePath + File.separator + app.getAppId();
 		// 站点生成后保存的html地址
-		String generatePath = getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + app.getAppId() + File.separator;
+	//	String generatePath = getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + app.getAppId() + File.separator;
+		String generatePath =savePath + File.separator + app.getAppId() + File.separator;
 		FileUtil.createFolder(generatePath);
 		// 网站风格物理路径
 		String tmpPath = getRealPath(request, IParserRegexConstant.REGEX_SAVE_TEMPLATE) + File.separator + app.getAppId() + File.separator + app.getAppStyle();
@@ -446,7 +456,8 @@ public class GeneraterAction extends BaseAction {
 			mobileStyle = app.getAppMobileStyle(); // 手机端模版
 		}
 
-		String generatePath = getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + app.getAppId() + File.separator;// 站点生成后保存的html地址
+	//	String generatePath = getRealPath(request, IParserRegexConstant.HTML_SAVE_PATH) + File.separator + app.getAppId() + File.separator;// 站点生成后保存的html地址
+		String generatePath = savePath + File.separator + app.getAppId() + File.separator;// 站点生成后保存的html地址
 		FileUtil.createFolder(generatePath);
 		String tmpPath = getRealPath(request, IParserRegexConstant.REGEX_SAVE_TEMPLATE) + File.separator + app.getAppId() + File.separator + app.getAppStyle(); // 网站风格物理路径
 		List<ArticleEntity> articleList = null;
@@ -460,7 +471,8 @@ public class GeneraterAction extends BaseAction {
 		} else {
 			columns = columnBiz.queryColumnListByWebsiteId(app.getAppId()); // 读取所有栏目
 		}
-		String url = app.getAppHostUrl() + File.separator + IParserRegexConstant.HTML_SAVE_PATH + File.separator + app.getAppId() + File.separator; // 文章地址前缀
+		//String url = app.getAppHostUrl() + File.separator + IParserRegexConstant.HTML_SAVE_PATH + File.separator + app.getAppId() + File.separator; // 文章地址前缀
+		String url = app.getAppHostUrl() + File.separator + savePath+ File.separator + app.getAppId() + File.separator; // 文章地址前缀
 		// 如果没有选择栏目，生成规则
 		// 1先读取所有的栏目,从最低级的分类取
 		for (ColumnEntity tempColumn : columns) {// 循环分类
@@ -780,8 +792,9 @@ public class GeneraterAction extends BaseAction {
 		//获取应用实体信息
 		AppEntity app = this.getApp(request);
 		//组织主页预览地址
-		String indexPosition = app.getAppHostUrl() +  File.separator + IParserRegexConstant.HTML_SAVE_PATH + File.separator + app.getAppId() + File.separator + position;
-		return "redirect:" + indexPosition;
+	//	String indexPosition = app.getAppHostUrl() +  File.separator + IParserRegexConstant.HTML_SAVE_PATH + File.separator + app.getAppId() + File.separator + position;
+		String indexPosition = app.getAppHostUrl()  + savePath + File.separator + app.getAppId() + File.separator + position;
+			return "redirect:" + indexPosition;
 	}
 
 }
