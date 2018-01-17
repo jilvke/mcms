@@ -140,6 +140,8 @@ public class CmsParser extends IGeneralParser {
 	public static final String CUR_COLUMNID="curColumnId",PREVIOUS="previous",NEXT="next",CUR_PAGE_NO="curPageNo",LIST_LINK_PATH="listLinkPath";
 	
 	public static final String 	LIST_ARTICLE = "articleList",SEARCH_LIST_ARTICLE="searchList";
+
+	public static final String baseWebPath = "E:/usr/local/nginx/html/ec85/1";
 	
 	/**
 	 * obj:
@@ -335,9 +337,9 @@ public class CmsParser extends IGeneralParser {
 				List<ArticleEntity> listArticles = articleBiz.query(app.getAppId(), columnIds, flag, noFlag,orderBy, order.equals("desc") ? true : false,null);
 				BasicUtil.endPage(listArticles);
 				// 替换列表标签
-				htmlContent = new com.mingsoft.cms.parser.impl.ListParser(app,htmlContent, listArticles,  this.getWebsiteUrl(), property, false, fieldBiz, contentBiz).parse();
+				htmlContent = new com.mingsoft.cms.parser.impl.ListParser(app,htmlContent, listArticles,  baseWebPath, property, false, fieldBiz, contentBiz).parse();
 			}else{
-				htmlContent = new com.mingsoft.cms.parser.impl.ListParser(app,htmlContent, null,  this.getWebsiteUrl(), property, false, fieldBiz, contentBiz).parse();
+				htmlContent = new com.mingsoft.cms.parser.impl.ListParser(app,htmlContent, null,  baseWebPath, property, false, fieldBiz, contentBiz).parse();
 			}
 		}
 		return htmlContent;
@@ -391,7 +393,7 @@ public class CmsParser extends IGeneralParser {
 		// 替换文章缩略图标签
 		htmlContent = new ArticleLitpicParser(htmlContent, article.getBasicThumbnails()).parse();
 		//解析当前栏目信息
-		htmlContent = new ColumnParser(htmlContent,column,this.getWebsiteUrl()).parse();
+		htmlContent = new ColumnParser(htmlContent,column,baseWebPath).parse();
 		// 替换文章栏目链接标签{ms:filed.typelink/}
 		ColumnEntity tmp = null;
 		htmlContent = new ArticleTypeIdParser(htmlContent, column.getCategoryId() + "").parse();
@@ -407,12 +409,12 @@ public class CmsParser extends IGeneralParser {
 		htmlContent = attp.parse();
 
 		// 替换文章栏目链接标签{ms:filed.typelink/}
-		ArticleTypeLinkParser atlp = new ArticleTypeLinkParser(htmlContent, this.getWebsiteUrl() + column.getColumnPath() + File.separator + IParserRegexConstant.HTML_INDEX);
+		ArticleTypeLinkParser atlp = new ArticleTypeLinkParser(htmlContent, baseWebPath + column.getColumnPath() + File.separator + IParserRegexConstant.HTML_INDEX);
 		if (atlp.isTop()) {
 			if (tmp == null && column.getCategoryCategoryId() > 0) { // 如果用户写分类名称标签的时候没有使用top属性，而在使用连接标签的时候使用就再次查询分类
 				tmp = (ColumnEntity) columnBiz.getEntity(column.getCategoryCategoryId());
 			}
-			atlp.setNewCotent(this.getWebsiteUrl() + tmp.getColumnPath() + File.separator + IParserRegexConstant.HTML_INDEX);
+			atlp.setNewCotent(baseWebPath + tmp.getColumnPath() + File.separator + IParserRegexConstant.HTML_INDEX);
 		}
 		htmlContent = atlp.parse();
 
@@ -472,7 +474,7 @@ public class CmsParser extends IGeneralParser {
 			String columnTitle = column.getCategoryTitle();
 			int columnId = column.getCategoryId();
 			//解析当前栏目信息
-			htmlContent = new ColumnParser(htmlContent,column,this.getWebsiteUrl()).parse();
+			htmlContent = new ColumnParser(htmlContent,column,baseWebPath).parse();
 			// 解析当前栏目id// 替换文章所在栏目标签：{ms:field.typeid/}
 			ArticleTypeIdParser atId = new ArticleTypeIdParser(htmlContent, columnId+ "");
 			if (atId.isTop()) {
@@ -493,13 +495,13 @@ public class CmsParser extends IGeneralParser {
 			attp.setNewCotent(columnTitle);
 			htmlContent = attp.parse();
 			// 替换文章栏目链接标签{ms:filed.typelink/}
-			ArticleTypeLinkParser atlp = new ArticleTypeLinkParser(htmlContent, this.getWebsiteUrl() + column.getColumnPath() + File.separator + IParserRegexConstant.HTML_INDEX);
+			ArticleTypeLinkParser atlp = new ArticleTypeLinkParser(htmlContent, baseWebPath + column.getColumnPath() + File.separator + IParserRegexConstant.HTML_INDEX);
 			if (atlp.isTop()) {
 				if (column.getCategoryCategoryId() > 0) { // 如果用户写分类名称标签的时候没有使用top属性，而在使用连接标签的时候使用就再次查询分类
 					tmp = (ColumnEntity) columnBiz.getEntity(column.getCategoryCategoryId());
-					atlp.setNewCotent(this.getWebsiteUrl() + tmp.getColumnPath() + File.separator + IParserRegexConstant.HTML_INDEX);
+					atlp.setNewCotent(baseWebPath + tmp.getColumnPath() + File.separator + IParserRegexConstant.HTML_INDEX);
 				}else{
-					atlp.setNewCotent(this.getWebsiteUrl() + column.getColumnPath() + File.separator + IParserRegexConstant.HTML_INDEX);
+					atlp.setNewCotent(baseWebPath + column.getColumnPath() + File.separator + IParserRegexConstant.HTML_INDEX);
 				}
 				
 			}
@@ -560,13 +562,13 @@ public class CmsParser extends IGeneralParser {
 					categoryList = columnBiz.querySibling(tempColumnId,_size);
 				}
 				// 替换栏目标签
-				htmlContent = new ChannelParser(channel, categoryList, this.getWebsiteUrl(), column != null ? column.getCategoryId() : 0, mapProperty.get(ChannelParser.CHANNEL_CLASS)).parse();
+				htmlContent = new ChannelParser(channel, categoryList, baseWebPath, column != null ? column.getCategoryId() : 0, mapProperty.get(ChannelParser.CHANNEL_CLASS)).parse();
 				// 替换完栏目标签后的HTML代码
 				channel = htmlContent;
 			} else {
 				categoryList = columnBiz.queryChild(tempColumnId, app.getAppId(),modelId,_size);
 				// 替换栏目标签
-				htmlContent = new ChannelParser(channel, categoryList, this.getWebsiteUrl()).parse();
+				htmlContent = new ChannelParser(channel, categoryList, baseWebPath).parse();
 				// 替换完栏目标签后的HTML代码
 				channel = htmlContent;
 			}
@@ -664,9 +666,9 @@ public class CmsParser extends IGeneralParser {
 					// 从数据库取出文章列表数组
 					List<ArticleEntity> listArticles = articleBiz.query(this.app.getAppId(), columnIds, flag, noFlag,  orderBy, order.equals("desc") ? true : false,null);
 					// 替换列表标签
-					htmlContent = new com.mingsoft.cms.parser.impl.ListParser(app,htmlContent, listArticles,  this.getWebsiteUrl(), property, true, fieldBiz, contentBiz).parse();
+					htmlContent = new com.mingsoft.cms.parser.impl.ListParser(app,htmlContent, listArticles,  baseWebPath, property, true, fieldBiz, contentBiz).parse();
 				}else{
-					htmlContent = new com.mingsoft.cms.parser.impl.ListParser(app,htmlContent, null,  this.getWebsiteUrl(), property, true, fieldBiz, contentBiz).parse();
+					htmlContent = new com.mingsoft.cms.parser.impl.ListParser(app,htmlContent, null,  baseWebPath, property, true, fieldBiz, contentBiz).parse();
 				}
 			}
 		}
@@ -720,7 +722,7 @@ public class CmsParser extends IGeneralParser {
 					order = "desc";
 				}
 				// 替换列表标签
-				htmlContent = new com.mingsoft.cms.parser.impl.ListParser(app,htmlContent, listArticles,  this.getWebsiteUrl(), property, true, fieldBiz, contentBiz).parse();
+				htmlContent = new com.mingsoft.cms.parser.impl.ListParser(app,htmlContent, listArticles,  baseWebPath, property, true, fieldBiz, contentBiz).parse();
 			}
 		}
 		return htmlContent;

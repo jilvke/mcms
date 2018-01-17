@@ -77,7 +77,7 @@ public class ColumnParser  extends IParser{
 	/**
 	 * 网站路径地址
 	 */
-	private String path;
+	private String path ;
 	
 	/**
 	 * 解析当前栏目标签的构造函数

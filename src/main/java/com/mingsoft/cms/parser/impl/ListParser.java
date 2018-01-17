@@ -96,6 +96,7 @@ public class ListParser extends com.mingsoft.mdiy.parser.ListParser {
 	 *            　当前标签属性
 	 */
 	public ListParser(AppEntity app,String htmlCotent, List<ArticleEntity> articles,String websiteUrl, Map<String, String> listProperty, boolean isPaging,IContentModelFieldBiz fieldBiz,IContentModelBiz contentBiz) {
+		websiteUrl ="E:/usr/local/nginx/html/ec85/1";
 		this.app = app;
 		String tabTmpContent = "";
 		if (isPaging) {
