@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-<title><#if app?has_content>${app.basicTitle}<#else>MS</#if>管理系统</title>
-<link rel="bookmark" href="favicon.ico"/> 
+<title><#if app?has_content>${app.basicTitle}<#else>金润网站</#if>管理系统</title>
+	<link rel="shortcut icon" href="${basePath}/static/index.ico"/>
+<link rel="bookmark" href="favicon.ico"/>
 <#include "${managerViewPath}/include/macro.ftl"/>
 <#include "${managerViewPath}/include/meta.ftl"/>
 <script src="http://cdn.mingsoft.net/model/4.6.0/ms.mstore.client.min.js"></script>
@@ -159,10 +160,10 @@
     <!--右边开始-->
     <div class="ms-content">
         <div class="wellcome">
-            <h2>欢迎进入MS系统</h2>
-            <p>欢迎加群： 221335098 或到
+            <h2>欢迎进入金润网站管理系统</h2>
+       <#--     <p>欢迎加群： 221335098 或到
                 <a href="http://ms.mingsoft.net/mbbs/main.do" target="_blank" style="text-decoration: none;">官方论坛进行技术交流</a>
-            </p>
+            </p>-->
         </div>
         <div class="easyui-tabs">
         

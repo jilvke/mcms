@@ -11,32 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80c43c68-11d5-4737-8c28-714dccf0bca6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/bitbug_favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/index.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/beijyoucczhi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/dianh_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/jinghen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/shojdibubdadianh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/shoye_8_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/shoyedianh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/slljshotupian.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/youqhuanan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/zouqhuanann.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/zxkf_05_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/images/zxkf_12_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/logs/error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/logs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_About_us.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_About_us.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case_zi.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case_zi.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_customized.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_customized.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_download.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_download.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_help.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_help.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_help_zi.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_help_zi.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_journalism.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_journalism.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_journalism_zi.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_journalism_zi.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_hjzx.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_hjzx.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_scrm.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_scrm.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_sll.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_sll.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_wyx.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_wyx.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_zxfw.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_zxfw.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_cm.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_cm.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_cy.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_cy.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_hlw.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_hlw.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_jy.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_jy.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_kx.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_kx.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_sho.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_sho.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_yl.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_yl.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_yy.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_solution_yy.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/index.htm" afterPath="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/index.ftl" afterPath="$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/index.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/login.ftl" afterPath="$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/login.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/main.ftl" afterPath="$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/main.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ms.properties" afterPath="$PROJECT_DIR$/src/main/resources/ms.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/manager/main.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/manager/main.ftl" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,101 +47,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ec_product_hjzx.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_product_hjzx.htm">
+      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/index.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
+            <state relative-caret-position="92">
+              <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ec_journalism_zi.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_journalism_zi.htm">
+      <file leaf-file-name="login.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/login.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
+            <state relative-caret-position="115">
+              <caret line="5" column="70" lean-forward="true" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ec_journalism.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_journalism.htm">
+      <file leaf-file-name="meta.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/include/meta.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
+            <state relative-caret-position="217">
+              <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ec_help_zi.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_help_zi.htm">
+      <file leaf-file-name="main.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/main.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ec_help.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_help.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ec_download.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_download.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ec_customized.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_customized.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ec_case_zi.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case_zi.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="106" lean-forward="false" selection-start-line="8" selection-start-column="106" selection-end-line="8" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ec_case.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="106" lean-forward="false" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ec_dibu.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_dibu.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1196">
-              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="69">
+              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -164,10 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ms:global</find>
-      <find>ms:global.url</find>
-      <find>href=&quot;{ms:globalskin.url/}</find>
-      <find>href=&quot;{ms:global.url/}/</find>
       <find>src=&quot;{ms:globalskin.url/}</find>
       <find>href=&quot;</find>
       <find>href=&quot;css</find>
@@ -194,6 +124,10 @@
       <find>parse</find>
       <find>savePath</find>
       <find>url</find>
+      <find>官方论坛进行技术交流</find>
+      <find>favicon.ico&quot;/&gt;</find>
+      <find>var basePath</find>
+      <find>basePath</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -219,11 +153,12 @@
     <dirStrings>
       <dir>E:\IDEA\MCMS\src\main\webapp\templets\2</dir>
       <dir>E:\IDEA\MCMS\src</dir>
-      <dir>E:\IDEA\MCMS</dir>
       <dir>E:\IDEA\MCMS\overlays</dir>
       <dir>E:\IDEA\MCMS\src\main\webapp\templets\1\ec85</dir>
       <dir>E:\IDEA\MCMS\src\main</dir>
       <dir>E:\IDEA\MCMS\src\main\java</dir>
+      <dir>E:\IDEA\MCMS\overlays\net.mingsoft.ms-basic-1.0.4-20171116.075847-14</dir>
+      <dir>E:\IDEA\MCMS</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -245,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/overlays/net.mingsoft.ms-mdiy-1.0.2-20170904.072748-39/WEB-INF/classes/com/mingsoft/mdiy/resources/resources.properties" />
         <option value="$USER_HOME$/.m2/repository/net/mingsoft/ms-mdiy/1.0.2-SNAPSHOT/ms-mdiy-1.0.2-20170904.072748-39-sources.jar!/com/mingsoft/mdiy/constant/Const.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mingsoft/cms/action/web/SearchAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mingsoft/cms/action/ArticleAction.java" />
@@ -260,7 +193,6 @@
         <option value="$USER_HOME$/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class" />
         <option value="$USER_HOME$/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Hierarchy.class" />
         <option value="$USER_HOME$/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class" />
-        <option value="$PROJECT_DIR$/src/main/resources/ms.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_dibu.htm" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_About_ditu.htm" />
@@ -291,6 +223,14 @@
         <option value="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_customized.htm" />
         <option value="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case_zi.htm" />
         <option value="$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case.htm" />
+        <option value="$PROJECT_DIR$/src/main/resources/ms.properties" />
+        <option value="$PROJECT_DIR$/target/ms-mcms/templets/1/ec85/index.htm" />
+        <option value="$PROJECT_DIR$/target/ms-mcms/templets/1/ec85/ec_dibu.htm" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/manager/main.ftl" />
+        <option value="$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/main.ftl" />
+        <option value="$PROJECT_DIR$/target/ms-mcms/templets/1/ec85/css/ec_journalism.css" />
+        <option value="$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/login.ftl" />
+        <option value="$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/index.ftl" />
       </list>
     </option>
   </component>
@@ -379,7 +319,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -391,12 +330,123 @@
             <path>
               <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
               <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="overlays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="overlays" type="462c0819:PsiDirectoryNode" />
+              <item name="net.mingsoft.ms-basic-1.0.4-20171116.075847-14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="overlays" type="462c0819:PsiDirectoryNode" />
+              <item name="net.mingsoft.ms-basic-1.0.4-20171116.075847-14" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="overlays" type="462c0819:PsiDirectoryNode" />
+              <item name="net.mingsoft.ms-basic-1.0.4-20171116.075847-14" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-mcms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-mcms" type="462c0819:PsiDirectoryNode" />
+              <item name="templets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-mcms" type="462c0819:PsiDirectoryNode" />
+              <item name="templets" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-mcms" type="462c0819:PsiDirectoryNode" />
+              <item name="templets" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+              <item name="ec85" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-mcms" type="462c0819:PsiDirectoryNode" />
+              <item name="templets" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+              <item name="ec85" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms-mcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCMS" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-mcms" type="462c0819:PsiDirectoryNode" />
+              <item name="templets" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+              <item name="ec85" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
@@ -409,13 +459,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="E:/ec85 网站" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ec_journalism.css" />
     <property name="two.files.diff.last.used.folder" value="E:/ec85 网站" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="two.files.diff.last.used.file" value="E:/ec85 网站/index.htm" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/ec_journalism.css" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\MCMS\src\main\webapp\static" />
       <recent name="E:\IDEA\MCMS\src\main\webapp\templets\1\ec85\images" />
       <recent name="E:\IDEA\MCMS\target\ms-mcms" />
       <recent name="E:\IDEA\MCMS\target" />
@@ -623,6 +674,8 @@
       <workItem from="1515663369454" duration="674000" />
       <workItem from="1515718846112" duration="17443000" />
       <workItem from="1515978281272" duration="19811000" />
+      <workItem from="1516185074267" duration="2289000" />
+      <workItem from="1516237626679" duration="9588000" />
     </task>
     <task id="LOCAL-00001" summary="首页信息变更">
       <created>1514969465440</created>
@@ -722,11 +775,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515994653266</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="增加网站 标题图标">
+      <created>1516174170263</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1516174170263</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165564000" />
+    <option name="totallyTimeSpent" value="180561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -738,52 +798,32 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25762713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3920904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21694915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25824177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17574786" sideWeight="0.4898844" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14529915" sideWeight="0.5101156" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18643162" sideWeight="0.4956044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22863248" sideWeight="0.5043956" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48022598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23050848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39548022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25824177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21694915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23023504" sideWeight="0.4956044" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22863248" sideWeight="0.5043956" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -901,7 +941,8 @@
     <MESSAGE value="标签完善" />
     <MESSAGE value="帮助 收索完成" />
     <MESSAGE value="改变生成目录,放在 linux 上用  第一版" />
-    <option name="LAST_COMMIT_MESSAGE" value="改变生成目录,放在 linux 上用  第一版" />
+    <MESSAGE value="增加网站 标题图标" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加网站 标题图标" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -937,79 +978,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_About_ditu.htm" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mingsoft/cms/action/ColumnAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5148">
-          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/net/mingsoft/ms-util/1.0.1/ms-util-1.0.1.jar!/com/mingsoft/util/RegexUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mingsoft/cms/action/ArticleAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mingsoft/cms/bean/ArticleBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4822">
-          <caret line="71" column="11" lean-forward="true" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mingsoft/cms/parser/impl/ChannelParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6026">
-          <caret line="295" column="0" lean-forward="false" selection-start-line="295" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
-          <folding>
-            <marker date="1516171340916" expanded="true" signature="8104:8202" ph="//..." />
-            <marker date="1516171340916" expanded="true" signature="9458:9548" ph="/**...*/" />
-            <marker date="1516171340916" expanded="true" signature="9592:9674" ph="{...}" />
-            <marker date="1516171340916" expanded="true" signature="9677:9702" ph="/**...*/" />
-            <marker date="1516171340916" expanded="true" signature="9778:9861" ph="/**...*/" />
-            <marker date="1516171340916" expanded="true" signature="9926:10399" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mingsoft/cms/parser/impl/ArticleLinkParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/net/mingsoft/ms-parser/1.0.0/ms-parser-1.0.0.jar!/com/mingsoft/parser/IParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mingsoft/cms/entity/ArticleEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2457">
-          <caret line="156" column="35" lean-forward="false" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.1.RELEASE/spring-core-4.3.1.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -1028,7 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="692">
           <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,7 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
           <caret line="91" column="23" lean-forward="false" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="811">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,7 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,7 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="811">
           <caret line="67" column="7" lean-forward="false" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,15 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ms.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-160">
           <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9729">
           <caret line="492" column="0" lean-forward="false" selection-start-line="492" selection-start-column="0" selection-end-line="492" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,17 +1074,8 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-966">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mingsoft/cms/action/GeneraterAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="79" lean-forward="false" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,7 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,7 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,7 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,7 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,7 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,7 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,7 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,7 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="10" column="106" lean-forward="false" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,7 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,7 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,7 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,7 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,14 +1231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_customized.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_case_zi.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1331,10 +1247,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_dibu.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1196">
+        <state relative-caret-position="184">
           <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templets/1/ec85/ec_customized.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mingsoft/cms/action/GeneraterAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/ms-mcms/templets/1/ec85/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="409" column="11" lean-forward="false" selection-start-line="409" selection-start-column="7" selection-end-line="409" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/ms-mcms/templets/1/ec85/ec_dibu.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/rf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/manager/main.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/ms-mcms/templets/1/ec85/css/ec_journalism.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ms.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/include/meta.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/main.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="70" lean-forward="true" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overlays/net.mingsoft.ms-basic-1.0.4-20171116.075847-14/WEB-INF/manager/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding />
         </state>
       </provider>
